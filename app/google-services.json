@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "982022542357",
+    "project_id": "mapple-f006f",
+    "storage_bucket": "mapple-f006f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982022542357:android:5301d1117aa743c15d6a1c",
+        "android_client_info": {
+          "package_name": "com.opsc7311.mapple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982022542357-uqo99dqfsqfpfcigc201motvfe0fn1eo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8OPWOJJi74j7xUYlosvUPq_NMYzaqjBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982022542357-uqo99dqfsqfpfcigc201motvfe0fn1eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
