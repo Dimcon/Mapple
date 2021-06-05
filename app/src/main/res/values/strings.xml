@@ -158,7 +158,7 @@
     <string name="do_not_show_again_button_text">Don\'t ask again</string>
     <string name="whoops_error_dialog_title">Whoops!</string>
     <string name="whoops_error_dialog_message">Looks like something went wrong with the log in process! Please try clearing your browser\'s cache/cookies and then sign back in.</string>
-    <string name="whoops_error_dialog_ok_positive_button">Ok</string>
+    <string name="whoops_error_dialog_ok_positive_button">OK</string>
 
     <!--Loading activity-->
     <string name="loading_textview">Loading&#8230;</string>
@@ -173,7 +173,7 @@
     <string name="no_picture_in_picture_support">This device\'s Android version does not\nsupport picture-in-picture mode</string>
     <string name="retrieval_error_dialog_title">Whoops!</string>
     <string name="retrieval_error_dialog_message">Looks like something went wrong with the log in process! Please try clearing your browser\'s cache/cookies and then sign back in.</string>
-    <string name="retrieval_error_dialog_ok_button">Ok</string>
+    <string name="retrieval_error_dialog_ok_button">OK</string>
 
     <!-- Share app intent -->
     <string name="share_app_subject">Mapbox demo app for Android</string>
