@@ -1,5 +1,7 @@
 package com.opsc7311.mapple.auth.data.model;
 
+import com.google.firebase.auth.FirebaseUser;
+
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository
  */
@@ -7,10 +9,10 @@ public class LoggedInUser {
 
     private String userId;
     private String displayName;
+    private FirebaseUser fbUser;
 
-    public LoggedInUser(String userId, String displayName) {
-        this.userId = userId;
-        this.displayName = displayName;
+    public LoggedInUser(FirebaseUser fbUser) {
+        this.fbUser = fbUser;
     }
 
     public String getUserId() {
@@ -18,6 +20,6 @@ public class LoggedInUser {
     }
 
     public String getDisplayName() {
-        return displayName;
+        return fbUser.getEmail();
     }
 }

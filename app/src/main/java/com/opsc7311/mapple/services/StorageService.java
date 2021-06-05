@@ -77,7 +77,7 @@ public class StorageService {
     @RequiresApi(api = Build.VERSION_CODES.N)
     public static String formatDateFromEpoch(long datep) {
         Calendar c = Calendar.getInstance();
-        c.setTimeInMillis(datep);
+        c.setTimeInMillis(datep) ;
         String pattern = "h:mma, EEEE, MMM d, yyyy";
         SimpleDateFormat format1 = new SimpleDateFormat(pattern);
         String formatted = format1.format(c.getTime());
