@@ -1,6 +1,18 @@
 package com.opsc7311.mapple.auth.data;
 
+import androidx.annotation.NonNull;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.opsc7311.mapple.R;
 import com.opsc7311.mapple.auth.data.model.LoggedInUser;
+
+import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
 
@@ -9,21 +21,52 @@ import java.io.IOException;
  */
 public class LoginDataSource {
 
-    public Result<LoggedInUser> login(String username, String password) {
+    MutableLiveData<Result<LoggedInUser>> loginResult = new MutableLiveData<>();
+    MutableLiveData<Result<LoggedInUser>> registerResult = new MutableLiveData<>();
+    MutableLiveData<Result<LoggedInUser>> logoutResult = new MutableLiveData<>();
 
-        try {
-            // TODO: handle loggedInUser authentication
-            LoggedInUser fakeUser =
-                    new LoggedInUser(
-                            java.util.UUID.randomUUID().toString(),
-                            "Jane Doe");
-            return new Result.Success<>(fakeUser);
-        } catch (Exception e) {
-            return new Result.Error(new IOException("Error logging in", e));
-        }
+    public MutableLiveData<Result<LoggedInUser>> login(String username, String password) {
+        // Handle logging the user in from the auth service.
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+        mAuth.signInWithEmailAndPassword(username, password)
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        FirebaseUser user = mAuth.getCurrentUser();
+                        LoggedInUser myUser = new LoggedInUser(user);
+                        loginResult.setValue(new Result.Success<LoggedInUser>(myUser));
+                    } else {
+                        Result.Error err = new Result.Error(new IOException("Error logging in", task.getException()));
+                        loginResult.setValue(err);
+                    }
+                });
+        return loginResult;
+    }
+
+    public FirebaseUser isLoggedIn() {
+        FirebaseAuth fAuth = FirebaseAuth.getInstance();
+        FirebaseUser currentUser = fAuth.getCurrentUser();
+        return currentUser;
+    }
+
+    public MutableLiveData<Result<LoggedInUser>> register(String username, String password) {
+        // Handle user registration.
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+        mAuth.createUserWithEmailAndPassword(username, password)
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        FirebaseUser user = mAuth.getCurrentUser();
+                        LoggedInUser myUser = new LoggedInUser(user);
+                        registerResult.setValue(new Result.Success<LoggedInUser>(myUser));
+                    } else {
+                        Result.Error err = new Result.Error(new IOException("Error registering user", task.getException()));
+                        registerResult.setValue(err);
+                    }
+                });
+        return loginResult;
     }
 
     public void logout() {
-        // TODO: revoke authentication
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+        mAuth.signOut();
     }
 }

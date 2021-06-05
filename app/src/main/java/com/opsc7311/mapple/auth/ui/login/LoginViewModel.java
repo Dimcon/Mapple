@@ -2,6 +2,7 @@ package com.opsc7311.mapple.auth.ui.login;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
@@ -29,16 +30,41 @@ public class LoginViewModel extends ViewModel {
         return loginResult;
     }
 
+    public LoggedInUser isLoggedIn() {
+        return loginRepository.isLoggedIn();
+    }
+
     public void login(String username, String password) {
         // can be launched in a separate asynchronous job
-        Result<LoggedInUser> result = loginRepository.login(username, password);
+        LiveData<Result<LoggedInUser>> LDResult = loginRepository.login(username, password);
+        LDResult.observeForever(new Observer<Result<LoggedInUser>>() {
+            @Override
+            public void onChanged(Result<LoggedInUser> loggedInUserResult) {
+                if (loggedInUserResult instanceof Result.Success) {
+                    LoggedInUser data = ((Result.Success<LoggedInUser>) loggedInUserResult).getData();
+                    loginResult.setValue(new LoginResult(data));
+                } else {
+                    loginResult.setValue(new LoginResult(R.string.login_failed));
+                }
+            }
+        });
+    }
 
-        if (result instanceof Result.Success) {
-            LoggedInUser data = ((Result.Success<LoggedInUser>) result).getData();
-            loginResult.setValue(new LoginResult(new LoggedInUserView(data.getDisplayName())));
-        } else {
-            loginResult.setValue(new LoginResult(R.string.login_failed));
-        }
+
+    public void register(String username, String password) {
+        // can be launched in a separate asynchronous job
+        LiveData<Result<LoggedInUser>> LDResult = loginRepository.register(username, password);
+        LDResult.observeForever(new Observer<Result<LoggedInUser>>() {
+            @Override
+            public void onChanged(Result<LoggedInUser> loggedInUserResult) {
+                if (loggedInUserResult instanceof Result.Success) {
+                    LoggedInUser data = ((Result.Success<LoggedInUser>) loggedInUserResult).getData();
+                    loginResult.setValue(new LoginResult(data));
+                } else {
+                    loginResult.setValue(new LoginResult(R.string.login_failed));
+                }
+            }
+        });
     }
 
     public void loginDataChanged(String username, String password) {
