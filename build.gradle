@@ -18,7 +18,14 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
+        jcenter()
+
+        repositories {
+            mavenCentral()
+            maven { url 'https://mapbox.bintray.com/mapbox' }
+        }
+
+        // Warning: this repository is going to shut down soon
         maven {
             url 'https://api.mapbox.com/downloads/v2/releases/maven'
             authentication {
