@@ -24,7 +24,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.opsc7311.mapple.MainActivity;
+import com.opsc7311.mapple.PointOfInterest;
 import com.opsc7311.mapple.R;
+import com.opsc7311.mapple.SettingsActivity;
 import com.opsc7311.mapple.auth.data.LoginDataSource;
 import com.opsc7311.mapple.auth.data.LoginRepository;
 import com.opsc7311.mapple.auth.data.model.LoggedInUser;
@@ -148,7 +150,7 @@ public class LoginActivity extends AppCompatActivity {
     private void updateUiWithUser(LoggedInUser model) {
         String welcome = getString(R.string.welcome) + " " + model.getDisplayName();
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
-        Intent switchToMainActivity = new Intent(this, MainActivity.class);
+        Intent switchToMainActivity = new Intent(this, PointOfInterest.class);
         startActivity(switchToMainActivity);
     }
 

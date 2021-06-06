@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Mapple</string>
+    <string name="app_label">Mapple</string>
+    <string name="search_hint">Mapple</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
