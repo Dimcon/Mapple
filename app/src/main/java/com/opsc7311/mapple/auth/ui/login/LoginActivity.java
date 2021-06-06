@@ -3,7 +3,6 @@ package com.opsc7311.mapple.auth.ui.login;
 import android.app.Activity;
 
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,14 +22,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.opsc7311.mapple.MainActivity;
+import com.opsc7311.mapple.main.MainActivity;
 import com.opsc7311.mapple.R;
 import com.opsc7311.mapple.auth.data.LoginDataSource;
 import com.opsc7311.mapple.auth.data.LoginRepository;
 import com.opsc7311.mapple.auth.data.model.LoggedInUser;
-import com.opsc7311.mapple.auth.ui.login.LoginViewModel;
-import com.opsc7311.mapple.auth.ui.login.LoginViewModelFactory;
 import com.opsc7311.mapple.databinding.ActivityLoginBinding;
+import com.opsc7311.mapple.main.NavigationActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -148,7 +146,7 @@ public class LoginActivity extends AppCompatActivity {
     private void updateUiWithUser(LoggedInUser model) {
         String welcome = getString(R.string.welcome) + " " + model.getDisplayName();
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
-        Intent switchToMainActivity = new Intent(this, MainActivity.class);
+        Intent switchToMainActivity = new Intent(this, NavigationActivity.class);
         startActivity(switchToMainActivity);
     }
 
