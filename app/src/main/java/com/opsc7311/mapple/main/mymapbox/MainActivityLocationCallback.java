@@ -1,4 +1,4 @@
-package com.opsc7311.mapple.main;
+package com.opsc7311.mapple.main.mymapbox;
 
 import android.location.Location;
 import android.util.Log;
@@ -14,6 +14,7 @@ import com.mapbox.mapboxsdk.location.modes.CameraMode;
 import com.mapbox.mapboxsdk.location.modes.RenderMode;
 import com.mapbox.mapboxsdk.maps.Style;
 import com.opsc7311.mapple.R;
+import com.opsc7311.mapple.main.MainActivity;
 
 import java.lang.ref.WeakReference;
 
@@ -40,11 +41,14 @@ public class MainActivityLocationCallback  implements LocationEngineCallback<Loc
             if (location == null) {
                 return;
             }
+            activity.lastLocation = location;
 
-            Toast.makeText(activity, String.format(activity.getString(R.string.new_location),
-                    String.valueOf(result.getLastLocation().getLatitude()),
-                    String.valueOf(result.getLastLocation().getLongitude())),
-                    Toast.LENGTH_SHORT).show();
+            new MyLoadGeoJsonDataTask.LoadGeoJsonDataTask(activity.mymapFeatures).execute();
+
+//            Toast.makeText(activity, String.format(activity.getString(R.string.new_location),
+//                    String.valueOf(result.getLastLocation().getLatitude()),
+//                    String.valueOf(result.getLastLocation().getLongitude())),
+//                    Toast.LENGTH_SHORT).show();
         }
     }
 

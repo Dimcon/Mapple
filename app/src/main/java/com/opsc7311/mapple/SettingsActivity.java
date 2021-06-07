@@ -16,13 +16,13 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class SettingsActivity extends AppCompatActivity {
-private TextView Settings;
-private TextView Measurements;
-private ListView Measurement;
-private TextView Plt;
-private ListView Pltlist;
-private Switch Location;
-private Button Save;
+    private TextView Settings;
+    private TextView Measurements;
+    private ListView Measurement;
+    private TextView Plt;
+    private ListView Pltlist;
+    private Switch Location;
+    private Button Save;
 
     ListView simpleList;
     String countryList1[] = {"Kilometers", "Miles"};

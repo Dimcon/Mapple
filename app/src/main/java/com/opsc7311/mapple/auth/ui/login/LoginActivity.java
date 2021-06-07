@@ -149,7 +149,7 @@ public class LoginActivity extends AppCompatActivity {
     private void updateUiWithUser(LoggedInUser model) {
         String welcome = getString(R.string.welcome) + " " + model.getDisplayName();
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
-        Intent switchToMainActivity = new Intent(this, PointOfInterest.class);
+        Intent switchToMainActivity = new Intent(this, MainActivity.class);
         startActivity(switchToMainActivity);
     }
 

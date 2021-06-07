@@ -1,7 +1,8 @@
-package com.opsc7311.mapple.main;
+package com.opsc7311.mapple.main.mymapbox;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
+import android.location.Location;
 import android.view.animation.BounceInterpolator;
 import android.widget.Toast;
 
@@ -22,6 +23,7 @@ import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
 import com.mapbox.mapboxsdk.maps.Style;
 import com.opsc7311.mapple.R;
+import com.opsc7311.mapple.main.MainActivity;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -36,6 +38,7 @@ public class MainActivityMapbox implements
     private MapView mapView;
     private MainActivity mainActivity;
     public PermissionsManager permissionsManager;
+
 
     private long DEFAULT_INTERVAL_IN_MILLISECONDS = 1000L;
     private long DEFAULT_MAX_WAIT_TIME = DEFAULT_INTERVAL_IN_MILLISECONDS * 5;
@@ -67,6 +70,7 @@ public class MainActivityMapbox implements
      */
     @SuppressWarnings( {"MissingPermission"})
     private void enableLocationComponent(@NonNull Style loadedMapStyle) {
+        mainActivity.mymapFeatures.onMapReadyAndStyleLoaded(this.mapboxMap, loadedMapStyle);
         // Check if permissions are enabled and if not request
         if (PermissionsManager.areLocationPermissionsGranted(mainActivity)) {
             // Get an instance of the component
@@ -82,14 +86,11 @@ public class MainActivityMapbox implements
             LocationComponentActivationOptions locationComponentActivationOptions =
                     LocationComponentActivationOptions.builder(mainActivity, loadedMapStyle)
                             .locationComponentOptions(locationComponentOptions)
-                            .useDefaultLocationEngine(false)
                             .build();
 
 
             locationComponent.activateLocationComponent(
-                    LocationComponentActivationOptions.builder(
-                            mainActivity, loadedMapStyle
-                    ).build()
+                    locationComponentActivationOptions
             );
 
             // Enable to make component visible

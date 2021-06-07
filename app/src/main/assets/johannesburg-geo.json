@@ -1,0 +1,7145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Janes Hall Transport Museum",
+        "category": "Attractions & Things To Do >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.099436,
+          -26.1046759
+        ]
+      },
+      "properties": {
+        "name": "Mulaudzi Alexandra Tours",
+        "category": "Attractions & Things To Do >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00866,
+          -26.14611
+        ]
+      },
+      "properties": {
+        "name": "The art of movement SA ",
+        "category": "Attractions & Things To Do >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9073423,
+          -26.2381898
+        ]
+      },
+      "properties": {
+        "name": "Vilakazi restaurant",
+        "category": "Attractions & Things To Do >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8725,
+          -26.1625
+        ]
+      },
+      "properties": {
+        "name": "Walter Sisulu Botanical Gardens",
+        "category": "Attractions & Things To Do >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.02966,
+          -26.18095
+        ]
+      },
+      "properties": {
+        "name": "Wits Art Gallery",
+        "category": "Attractions & Things To Do >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.04985,
+          -26.20567
+        ]
+      },
+      "properties": {
+        "name": "ABSA Art Gallery",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03458,
+          -26.19484
+        ]
+      },
+      "properties": {
+        "name": "Afronova",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.05787,
+          -26.20447
+        ]
+      },
+      "properties": {
+        "name": "Arts on Main",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0347099,
+          -26.1531303
+        ]
+      },
+      "properties": {
+        "name": "Artspace",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0362063,
+          -26.1435846
+        ]
+      },
+      "properties": {
+        "name": "CIRCA",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0344215,
+          -26.194643
+        ]
+      },
+      "properties": {
+        "name": "CO-OP",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03462,
+          -26.1498199
+        ]
+      },
+      "properties": {
+        "name": "David Krut",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0366534,
+          -26.1434344
+        ]
+      },
+      "properties": {
+        "name": "Everard Read",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0194345,
+          -26.1855405
+        ]
+      },
+      "properties": {
+        "name": "Gallery AOP",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03097,
+          -26.1453099
+        ]
+      },
+      "properties": {
+        "name": "Gallery Momo",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.064559,
+          -26.054097
+        ]
+      },
+      "properties": {
+        "name": "Gallery on the Square",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.05791,
+          -26.20475
+        ]
+      },
+      "properties": {
+        "name": "GoetheOnMain",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0342989,
+          -26.149183
+        ]
+      },
+      "properties": {
+        "name": "Goodman Gallery",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.045489,
+          -26.1954613
+        ]
+      },
+      "properties": {
+        "name": "Johannesburg Art Gallery",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03473,
+          -26.1496299
+        ]
+      },
+      "properties": {
+        "name": "Maker",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03473,
+          -26.1496299
+        ]
+      },
+      "properties": {
+        "name": "Resolution",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.02754,
+          -26.20114
+        ]
+      },
+      "properties": {
+        "name": "Rooke Gallery",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.04017,
+          -26.208603
+        ]
+      },
+      "properties": {
+        "name": "STANDARD BANK GALLERY",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0073512,
+          -26.1762586
+        ]
+      },
+      "properties": {
+        "name": "The Thompson Galllery",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.01367,
+          -26.18768
+        ]
+      },
+      "properties": {
+        "name": "University of Joburg",
+        "category": "Attractions & Things To Do > Art Galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03121,
+          -26.16339
+        ]
+      },
+      "properties": {
+        "name": "Alliance Francaise",
+        "category": "Attractions & Things To Do > Arts & Culture"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.031911,
+          -26.204826
+        ]
+      },
+      "properties": {
+        "name": "Artist Proof Studio",
+        "category": "Attractions & Things To Do > Arts & Culture"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0236,
+          -26.20578
+        ]
+      },
+      "properties": {
+        "name": "Bag Factory",
+        "category": "Attractions & Things To Do > Arts & Culture"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0333766,
+          -26.1537965
+        ]
+      },
+      "properties": {
+        "name": "Goethe-Institut Johannesburg",
+        "category": "Attractions & Things To Do > Arts & Culture"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0323325,
+          -26.2049451
+        ]
+      },
+      "properties": {
+        "name": "Market Photo Workshop",
+        "category": "Attractions & Things To Do > Arts & Culture"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0016947,
+          -26.1765065
+        ]
+      },
+      "properties": {
+        "name": "Cool Runnings",
+        "category": "Attractions & Things To Do > Bar & Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0093101,
+          -26.1740693
+        ]
+      },
+      "properties": {
+        "name": "Unplugged on 7th",
+        "category": "Attractions & Things To Do > Bar & Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.143837,
+          -25.481103
+        ]
+      },
+      "properties": {
+        "name": "Brauhaus am Damm",
+        "category": "Attractions & Things To Do > Breweries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2234664,
+          -26.1491053
+        ]
+      },
+      "properties": {
+        "name": "Emperors Palace",
+        "category": "Attractions & Things To Do > Casinos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0595834,
+          -26.2041628
+        ]
+      },
+      "properties": {
+        "name": "The Bioscope Independant Cinema",
+        "category": "Attractions & Things To Do > Cinema"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.36057,
+          -25.7618395
+        ]
+      },
+      "properties": {
+        "name": "Ashtray Electric",
+        "category": "Attractions & Things To Do > Concerts"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0086,
+          -26.177114
+        ]
+      },
+      "properties": {
+        "name": "Jazzy Wednesdays",
+        "category": "Attractions & Things To Do > Concerts"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07604,
+          -26.15774
+        ]
+      },
+      "properties": {
+        "name": "Crazy 88",
+        "category": "Attractions & Things To Do > Dance Club & Discos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "The Mix",
+        "category": "Attractions & Things To Do > Dance Club & Discos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.042629,
+          -26.147686
+        ]
+      },
+      "properties": {
+        "name": "B & B Markets Rooftop",
+        "category": "Attractions & Things To Do > Flea & Street Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0494639,
+          -26.1304168
+        ]
+      },
+      "properties": {
+        "name": "Babylon Bar",
+        "category": "Attractions & Things To Do > Gay Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0405556,
+          -26.1219444
+        ]
+      },
+      "properties": {
+        "name": "Out in Africa Gay & Lesbian Film Festival Johannesburg",
+        "category": "Attractions & Things To Do > Gay Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0426573,
+          -26.19038
+        ]
+      },
+      "properties": {
+        "name": "Constitution Hill",
+        "category": "Attractions & Things To Do > Heritage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03186,
+          -26.20157
+        ]
+      },
+      "properties": {
+        "name": "African Bank Market Theatre Galleries",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.040789,
+          -26.146568
+        ]
+      },
+      "properties": {
+        "name": "African Flea Market",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Airtrack - Flying Pictures",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Alexandra Township",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Aloe Ridge Nature Game Reserve",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.02617,
+          -26.15973
+        ]
+      },
+      "properties": {
+        "name": "Art Africa",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0718204,
+          -26.2021974
+        ]
+      },
+      "properties": {
+        "name": "Art now international Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00158,
+          -26.17757
+        ]
+      },
+      "properties": {
+        "name": "Art on Paper",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.04254,
+          -26.15084
+        ]
+      },
+      "properties": {
+        "name": "BCI Fine Art Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0045888,
+          -26.1373566
+        ]
+      },
+      "properties": {
+        "name": "Beaconsfield Bowling Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0280186,
+          -26.1948005
+        ]
+      },
+      "properties": {
+        "name": "Braamfontein Cemetery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.015389,
+          -26.1970049
+        ]
+      },
+      "properties": {
+        "name": "Brixton Crematorium",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1089838,
+          -26.1783899
+        ]
+      },
+      "properties": {
+        "name": "Bruma Market",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0338889,
+          -26.0486111
+        ]
+      },
+      "properties": {
+        "name": "Bryanston Country Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0544735,
+          -26.2053655
+        ]
+      },
+      "properties": {
+        "name": "Carlton Panorama",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Chamber Running Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.041278,
+          -26.146539
+        ]
+      },
+      "properties": {
+        "name": "Cherie de Villiers Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9503415,
+          -26.2605039
+        ]
+      },
+      "properties": {
+        "name": "Chris Hani Baragwanath Hospital",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0437369,
+          -26.192592
+        ]
+      },
+      "properties": {
+        "name": "Constitution Hill",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00397,
+          -26.18263
+        ]
+      },
+      "properties": {
+        "name": "Country Club Johannesburg - Woodlands",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07574,
+          -26.16107
+        ]
+      },
+      "properties": {
+        "name": "Crake Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8704545,
+          -26.2429286
+        ]
+      },
+      "properties": {
+        "name": "Credo Mutwa",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00397,
+          -26.0254685
+        ]
+      },
+      "properties": {
+        "name": "Croc City Crocodile Farm",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.990568,
+          -26.238382
+        ]
+      },
+      "properties": {
+        "name": "Crown Mines Golf Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0338889,
+          -26.0486111
+        ]
+      },
+      "properties": {
+        "name": "Dainfern Golf Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03462,
+          -26.1498199
+        ]
+      },
+      "properties": {
+        "name": "David Krut Art Resources",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.13354,
+          -26.09049
+        ]
+      },
+      "properties": {
+        "name": "Drakes Farmyard",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Elephant Sanctuary",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0548074,
+          -26.196903
+        ]
+      },
+      "properties": {
+        "name": "Ellis Park Stadium",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.002053,
+          -26.151102
+        ]
+      },
+      "properties": {
+        "name": "Emmarentia Dam",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03097,
+          -26.1453099
+        ]
+      },
+      "properties": {
+        "name": "Everard Read Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0441181,
+          -26.1455632
+        ]
+      },
+      "properties": {
+        "name": "Galaxy World Tenpin Bowling",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.89362,
+          -26.28698
+        ]
+      },
+      "properties": {
+        "name": "Gallery 181",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.039757,
+          -26.2003169
+        ]
+      },
+      "properties": {
+        "name": "Gandhi Square",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.031233,
+          -26.162988
+        ]
+      },
+      "properties": {
+        "name": "Gerald Sekoto Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.143378,
+          -26.1627869
+        ]
+      },
+      "properties": {
+        "name": "Glen Dower Golf Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.92672,
+          -25.93881
+        ]
+      },
+      "properties": {
+        "name": "Go-Carting and Dirt Riding",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0073556,
+          -26.2393308
+        ]
+      },
+      "properties": {
+        "name": "Gold Reef City",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00662,
+          -26.17627
+        ]
+      },
+      "properties": {
+        "name": "Gordart at Thompson Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00834,
+          -26.17585
+        ]
+      },
+      "properties": {
+        "name": "Graphiti Gallery & Framers",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.908361,
+          -26.2347079
+        ]
+      },
+      "properties": {
+        "name": "Hector Peterson Memorial",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Heia Safari Ranch",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.35059,
+          -26.24474
+        ]
+      },
+      "properties": {
+        "name": "Hillfox Market",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0400915,
+          -26.240351
+        ]
+      },
+      "properties": {
+        "name": "Horse Racing - Jockey Club of Southern Africa",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0616667,
+          -26.1625
+        ]
+      },
+      "properties": {
+        "name": "Houghton Golf Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0405556,
+          -26.1219444
+        ]
+      },
+      "properties": {
+        "name": "Hyde Park Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07197,
+          -26.12687
+        ]
+      },
+      "properties": {
+        "name": "Inanda Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.949819,
+          -26.0248369
+        ]
+      },
+      "properties": {
+        "name": "Indoor Wall Climbing",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9979668,
+          -26.1564015
+        ]
+      },
+      "properties": {
+        "name": "Johannesburg Botanic Gardens",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.039925,
+          -26.1947249
+        ]
+      },
+      "properties": {
+        "name": "Johannesburg Civic Theatre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0281635,
+          -26.1893816
+        ]
+      },
+      "properties": {
+        "name": "Johannesburg Planetarium",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Johannesburg Skydiving Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.054604,
+          -26.1969324
+        ]
+      },
+      "properties": {
+        "name": "Johannesburg Stadium",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.043618,
+          -26.1822341
+        ]
+      },
+      "properties": {
+        "name": "Johannesburg Youth Theatre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0311657,
+          -26.1824652
+        ]
+      },
+      "properties": {
+        "name": "Johannesburg Zoo",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9497963,
+          -26.2333156
+        ]
+      },
+      "properties": {
+        "name": "John Shoes Moshoeus",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.95298,
+          -26.2761
+        ]
+      },
+      "properties": {
+        "name": "Kaizer Chiefs Football Club Village",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8750976,
+          -26.2476538
+        ]
+      },
+      "properties": {
+        "name": "Khayalendaba",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.040714,
+          -26.031489
+        ]
+      },
+      "properties": {
+        "name": "Kliprivier and Rietfontein Nature Reserves",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.84824,
+          -26.277559
+        ]
+      },
+      "properties": {
+        "name": "Kliptown",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Krugersdorp Game Reserve",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0468218,
+          -25.9671057
+        ]
+      },
+      "properties": {
+        "name": "Kyalami Country Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.031911,
+          -26.204826
+        ]
+      },
+      "properties": {
+        "name": "Kyalami Race Track",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0443556,
+          -26.1042124
+        ]
+      },
+      "properties": {
+        "name": "Les Art International",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Lesedi Cultural Village",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9443573,
+          -26.1005611
+        ]
+      },
+      "properties": {
+        "name": "Lifestyle Family Garden Centre and Play Land",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0543826,
+          -26.0431645
+        ]
+      },
+      "properties": {
+        "name": "Liliesleaf Farm",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9970984,
+          -26.1446946
+        ]
+      },
+      "properties": {
+        "name": "Linden Swimming Pool",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0548056,
+          -25.9703889
+        ]
+      },
+      "properties": {
+        "name": "Lipizzaner",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.14822,
+          -25.993454
+        ]
+      },
+      "properties": {
+        "name": "Lory Park Zoo and Owl Sanctuary",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9556537,
+          -26.2402112
+        ]
+      },
+      "properties": {
+        "name": "Lucas Radebe Home",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0047759,
+          -26.031142
+        ]
+      },
+      "properties": {
+        "name": "Manor Gallery/ Norscot Manor Centre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03272,
+          -26.20149
+        ]
+      },
+      "properties": {
+        "name": "Market Photography Workshop",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.662507,
+          -25.967098
+        ]
+      },
+      "properties": {
+        "name": "Maropeng",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.028521,
+          -26.206214
+        ]
+      },
+      "properties": {
+        "name": "Mary Fitzgerald Square",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0370282,
+          -26.0515472
+        ]
+      },
+      "properties": {
+        "name": "Michael Mount Organic Village Market",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0088936,
+          -26.0240528
+        ]
+      },
+      "properties": {
+        "name": "Montecasino Bird Sanctuary",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03069,
+          -26.20186
+        ]
+      },
+      "properties": {
+        "name": "Museum Africa",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0361296,
+          -26.2048044
+        ]
+      },
+      "properties": {
+        "name": "Museum of Man and Science",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9855054,
+          -26.2349237
+        ]
+      },
+      "properties": {
+        "name": "Nasrec Expo Centre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0317826,
+          -26.2025006
+        ]
+      },
+      "properties": {
+        "name": "Nelson Mandela Bridge",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.039925,
+          -26.1947249
+        ]
+      },
+      "properties": {
+        "name": "Nelson Mandela Theatre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.919206,
+          -26.171647
+        ]
+      },
+      "properties": {
+        "name": "Nelson Mandela Yard",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.000255,
+          -33.639779
+        ]
+      },
+      "properties": {
+        "name": "Newtown Cultural Precinct",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Ngwenya Glass Village",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.974474,
+          -26.029567
+        ]
+      },
+      "properties": {
+        "name": "Northgate Ice Arena",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.060498,
+          -26.107739
+        ]
+      },
+      "properties": {
+        "name": "Obert contemporary Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Old Kromdraai Goldmine",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0281635,
+          -26.1893816
+        ]
+      },
+      "properties": {
+        "name": "Origins Centre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9073423,
+          -26.2381898
+        ]
+      },
+      "properties": {
+        "name": "Orlando Stadium",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9064642,
+          -26.0977497
+        ]
+      },
+      "properties": {
+        "name": "Paddle Power",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.056378,
+          -26.319056
+        ]
+      },
+      "properties": {
+        "name": "Paint-Balling",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Parktown Westcliff Heritage",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0194845,
+          -26.1622914
+        ]
+      },
+      "properties": {
+        "name": "Parkview Golf Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.858839,
+          -25.962598
+        ]
+      },
+      "properties": {
+        "name": "Phumangena Zulu Kraal",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.147409,
+          -26.1780799
+        ]
+      },
+      "properties": {
+        "name": "Pied Piper",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.004,
+          -26.18727
+        ]
+      },
+      "properties": {
+        "name": "RAU Art Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9750531,
+          -26.0859696
+        ]
+      },
+      "properties": {
+        "name": "Raceway",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Rand Stadium",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Rapp Jumping",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.857,
+          -26.27864
+        ]
+      },
+      "properties": {
+        "name": "Regina Mundi Church",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Rhino and Lion Nature Reserve",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.040789,
+          -26.146568
+        ]
+      },
+      "properties": {
+        "name": "Rooftop Market",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0346549,
+          -26.2044564
+        ]
+      },
+      "properties": {
+        "name": "SAB World of Beer",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0527152,
+          -26.2248952
+        ]
+      },
+      "properties": {
+        "name": "Santarama Miniland",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Sci bono Discovery Centre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9855054,
+          -26.2349237
+        ]
+      },
+      "properties": {
+        "name": "Soccer City Stadium",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.032839,
+          -26.206043
+        ]
+      },
+      "properties": {
+        "name": "Southern African Theatre Initiative",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.901098,
+          -26.280617
+        ]
+      },
+      "properties": {
+        "name": "Soweto Golf Course",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.06744,
+          -26.20089
+        ]
+      },
+      "properties": {
+        "name": "Spaza Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1122679,
+          -26.2707593
+        ]
+      },
+      "properties": {
+        "name": "Sterkfontein Caves",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.919206,
+          -26.171647
+        ]
+      },
+      "properties": {
+        "name": "The Alexandra Arts factory",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.87275,
+          -26.2828959
+        ]
+      },
+      "properties": {
+        "name": "The Avalon Cemetery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.848904,
+          -26.034921
+        ]
+      },
+      "properties": {
+        "name": "The Crocodile Ramble",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.039925,
+          -26.1947249
+        ]
+      },
+      "properties": {
+        "name": "The Gallery Premises at the Civic Theatre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.919206,
+          -26.171647
+        ]
+      },
+      "properties": {
+        "name": "The Kings Cinema",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9963883,
+          -26.0993158
+        ]
+      },
+      "properties": {
+        "name": "The Market Place",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0323325,
+          -26.2049451
+        ]
+      },
+      "properties": {
+        "name": "The National Craft and Design Centre (Bus Factory)",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.919206,
+          -26.171647
+        ]
+      },
+      "properties": {
+        "name": "The Roman Catholic Church",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0544348,
+          -26.1513538
+        ]
+      },
+      "properties": {
+        "name": "The Transvaal Automobile Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.919206,
+          -26.171647
+        ]
+      },
+      "properties": {
+        "name": "The cemetery precinct",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.919206,
+          -26.171647
+        ]
+      },
+      "properties": {
+        "name": "The giant, haunting men’s hostel",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03244,
+          -26.20386
+        ]
+      },
+      "properties": {
+        "name": "Totem Mneghelli Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.040748,
+          -26.257627
+        ]
+      },
+      "properties": {
+        "name": "Turffontein Race Course",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9102538,
+          -26.2348533
+        ]
+      },
+      "properties": {
+        "name": "Vilakazi Street",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8568,
+          -26.090612
+        ]
+      },
+      "properties": {
+        "name": "Walter Sisulu National Botanical Garden",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8876352,
+          -26.2728193
+        ]
+      },
+      "properties": {
+        "name": "Walter Sisulu Square of dedication",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0578401,
+          -26.1325664
+        ]
+      },
+      "properties": {
+        "name": "Wanderer's Cricket Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.05712,
+          -26.13138
+        ]
+      },
+      "properties": {
+        "name": "Wanderers Golf Club",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0304749,
+          -26.1814253
+        ]
+      },
+      "properties": {
+        "name": "Warren Seebrits Modern and Contemporary Art",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      },
+      "properties": {
+        "name": "Wass Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03248,
+          -26.19281
+        ]
+      },
+      "properties": {
+        "name": "Wits Downstairs Theatre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03248,
+          -26.19281
+        ]
+      },
+      "properties": {
+        "name": "Wits Theatre",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03248,
+          -26.19281
+        ]
+      },
+      "properties": {
+        "name": "Wits Theatre Complex",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.044673,
+          -26.148331
+        ]
+      },
+      "properties": {
+        "name": "Zuva Gallery",
+        "category": "Attractions & Things To Do > Landmarks & Points of Interest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.05038,
+          -26.20494
+        ]
+      },
+      "properties": {
+        "name": "Absa Museum",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0437369,
+          -26.192592
+        ]
+      },
+      "properties": {
+        "name": "Adler Museum of the History of Medicine",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0281635,
+          -26.1893816
+        ]
+      },
+      "properties": {
+        "name": "Adler Museum of the History of Music",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0076409,
+          -26.2367062
+        ]
+      },
+      "properties": {
+        "name": "Apartheid Museum",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0408516,
+          -26.204906
+        ]
+      },
+      "properties": {
+        "name": "First National Bank Museum",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9020461,
+          -26.2284847
+        ]
+      },
+      "properties": {
+        "name": "Hector Pieterson Memorial Museum",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7592003,
+          -26.0979035
+        ]
+      },
+      "properties": {
+        "name": "Krugersdorp Museum",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9069145,
+          -26.2380372
+        ]
+      },
+      "properties": {
+        "name": "Nelson Mandela Museum /House",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0417138,
+          -26.1623012
+        ]
+      },
+      "properties": {
+        "name": "South African Museum of Military History",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03244,
+          -26.20386
+        ]
+      },
+      "properties": {
+        "name": "The Workers' Library and Museum",
+        "category": "Attractions & Things To Do > Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.082071,
+          -25.249548
+        ]
+      },
+      "properties": {
+        "name": "Pilanesberg Game Reserve",
+        "category": "Attractions & Things To Do > National Parks"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.014911,
+          -26.040898
+        ]
+      },
+      "properties": {
+        "name": "Daytona Adventure Park",
+        "category": "Attractions & Things To Do > Parks"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0101619,
+          -26.1672002
+        ]
+      },
+      "properties": {
+        "name": "Melville Koppies",
+        "category": "Attractions & Things To Do > Parks"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0183878,
+          -26.1376905
+        ]
+      },
+      "properties": {
+        "name": "Aura Skin Care Clinic",
+        "category": "Attractions & Things To Do > Spas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0351633,
+          -26.192102
+        ]
+      },
+      "properties": {
+        "name": "Alexander Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Barnyard Boksburg",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9793539,
+          -26.1284303
+        ]
+      },
+      "properties": {
+        "name": "Barnyard Theatre, Cresta",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0776558,
+          -26.1642621
+        ]
+      },
+      "properties": {
+        "name": "Foxwood Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0122222,
+          -26.2361111
+        ]
+      },
+      "properties": {
+        "name": "Globe Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.90263,
+          -26.1507
+        ]
+      },
+      "properties": {
+        "name": "Joburg Promusica Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0389921,
+          -26.191145
+        ]
+      },
+      "properties": {
+        "name": "Joburg Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0562258,
+          -26.1062314
+        ]
+      },
+      "properties": {
+        "name": "Liberty Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0416363,
+          -26.1818455
+        ]
+      },
+      "properties": {
+        "name": "Linder Auditorium",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0122222,
+          -26.2361111
+        ]
+      },
+      "properties": {
+        "name": "Lyric Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Market Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0218959,
+          -26.1981017
+        ]
+      },
+      "properties": {
+        "name": "Peoples Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.012779,
+          -26.02568
+        ]
+      },
+      "properties": {
+        "name": "Pieter Toerien Theatre and Studio",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.012779,
+          -26.02568
+        ]
+      },
+      "properties": {
+        "name": "Teatro",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.030442,
+          -26.2040156
+        ]
+      },
+      "properties": {
+        "name": "The Dance Factory",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.030758,
+          -26.190275
+        ]
+      },
+      "properties": {
+        "name": "The Joburg Theatre Complex",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9527383,
+          -26.0619823
+        ]
+      },
+      "properties": {
+        "name": "The Showcase Theatre Restauraunt",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0768942,
+          -26.1683125
+        ]
+      },
+      "properties": {
+        "name": "Victory Theatre",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0513081,
+          -26.1926649
+        ]
+      },
+      "properties": {
+        "name": "Windybrow",
+        "category": "Attractions & Things To Do > Theaters"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Soweto Preview (PTY) LTD.",
+        "category": "Attractions & Things To Do > Tourist & Visitor Centers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "Cirque Eloize iD ",
+        "category": "Events >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0371,
+          -26.1675
+        ]
+      },
+      "properties": {
+        "name": "Holiday Fun at the Joburg Zoo",
+        "category": "Events > Adventure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.08797900000002,
+          -26.066302
+        ]
+      },
+      "properties": {
+        "name": "Da Vinci - The Genius",
+        "category": "Events > Art Exhibition"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03619,
+          -26.19297
+        ]
+      },
+      "properties": {
+        "name": "Mapping/Marking",
+        "category": "Events > Art Exhibition"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "National Antiques & Decorative Arts Faire - bringing the past to life!",
+        "category": "Events > Art Exhibition"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0349,
+          -26.1927
+        ]
+      },
+      "properties": {
+        "name": "Queer and Trans Art-iculations: Collaborative Art for Social Change",
+        "category": "Events > Art Exhibition"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "ASHVIN GIDWANI'S HISTORY OF INDIA VIRitten",
+        "category": "Events > Comedy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "Defending the Caveman",
+        "category": "Events > Comedy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0122222,
+          -26.2361111
+        ]
+      },
+      "properties": {
+        "name": "JOHN VLISMAS IN REVELATIONS ",
+        "category": "Events > Comedy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "Jeff Dunham \"Disorderly Conduct\" Tour",
+        "category": "Events > Comedy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "Lord of the Flings",
+        "category": "Events > Comedy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "Tori Amos ",
+        "category": "Events > Concerts"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "21st World Orchid Conference and Show at Sandton Convention Centre",
+        "category": "Events > Conference"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "Africa Rail and Signalling & Train Control World Africa ",
+        "category": "Events > Conference"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03221,
+          -26.06394
+        ]
+      },
+      "properties": {
+        "name": "HP World South Africa",
+        "category": "Events > Conference"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0782,
+          -26.0022
+        ]
+      },
+      "properties": {
+        "name": "IOSH South Africa OHS Conference 2014 at Gallagher Convention Centre",
+        "category": "Events > Conference"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "Infrastructure Africa ",
+        "category": "Events > Conference"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "NGV2014 South Africa ",
+        "category": "Events > Conference"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0782,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "Sara Rail Conference 2014 at Gallagher Convention Centre",
+        "category": "Events > Conference"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "SatCom Africa 2014-Sandton Convention Centre",
+        "category": "Events > Conference"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03221,
+          -26.06394
+        ]
+      },
+      "properties": {
+        "name": "The Broadcast Show Africa 2014-Sandton Convention Centre",
+        "category": "Events > Conference"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "AfriMold Manufacturing Trade Fair 2014 ",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07908,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "Africa's Big Seven 2014",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9821,
+          -26.24543
+        ]
+      },
+      "properties": {
+        "name": "African Farmers Workshop and Expo",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9821,
+          -26.24543
+        ]
+      },
+      "properties": {
+        "name": "China Global Sourcing Expo",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9821,
+          -26.24543
+        ]
+      },
+      "properties": {
+        "name": "Electra Mining Transafrica",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07908,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "FESPA Africa 2014",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0782,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "Facilities Management Expo 2014 - Gallagher Convention Centre",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "Fine Brandy Fusion ",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07908,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "HuntEx 2014-Gallagher Convention Centre",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07908,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "Inspire Trade Expo",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9821,
+          -26.24543
+        ]
+      },
+      "properties": {
+        "name": "Interbuild",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "MamaMagic, The Baby Expo",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "SA Sweets and Snacks Expo",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07908,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "SAITEX 2014",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.127436999999986,
+          -26.000348
+        ]
+      },
+      "properties": {
+        "name": "SOUTH AFRICAN AUTOMOTIVE WEEK ",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "Southern African Funeral Expo 2014",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "The Cargo Show Africa 2014 ",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "The Wedding Expo",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07908,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "The World of Dogs and Cats & Pet Expo 2014",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0782,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "WoodEx For Africa 2014",
+        "category": "Events > Expos & Trade Shows"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "Easter Beach Festival",
+        "category": "Events > Festival"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9821,
+          -26.24543
+        ]
+      },
+      "properties": {
+        "name": "Rand Show",
+        "category": "Events > Festival"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07908,
+          -26.0065
+        ]
+      },
+      "properties": {
+        "name": "Africa Health 2014 - Convention Convention Centre",
+        "category": "Events > Health"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "Grand Designs Live ",
+        "category": "Events > Home & Decor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.127436999999986,
+          -26.000348
+        ]
+      },
+      "properties": {
+        "name": "Decorex Joburg 2014 - Gallagher Convention Centre",
+        "category": "Events > Lifestyle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "EID Shopping Festival SA",
+        "category": "Events > Lifestyle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "RMB WineX ",
+        "category": "Events > Lifestyle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.032164,
+          -26.070502
+        ]
+      },
+      "properties": {
+        "name": "Sizwe Ntsaluba Gobodo Celebration of Bubbles",
+        "category": "Events > Lifestyle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "Veritas Wine Tasting",
+        "category": "Events > Lifestyle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "30 Seconds to Mars at The Coca-Cola Dome",
+        "category": "Events > Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "Anthems of Democracy",
+        "category": "Events > Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "Armin Only Intense World Tour",
+        "category": "Events > Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "LION OF AFRICA MUSIC EXPRESSIONS - SIBONGILE MNGOMA",
+        "category": "Events > Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0122222,
+          -26.2361111
+        ]
+      },
+      "properties": {
+        "name": "SA Indies Music Week",
+        "category": "Events > Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "Standard Bank Joy of Jazz moves to new venue and new date",
+        "category": "Events > Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "THE SOUND OF MUSIC",
+        "category": "Events > Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "The Greatest Love of All - Whitney Houston",
+        "category": "Events > Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "ZOLASOUL - THANDO LOKWENENE LAUNCH",
+        "category": "Events > Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "2014 Reebok CrossFit Games Africa Regional",
+        "category": "Events > Other"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "Dinosaurs to take Jo'burg, Cape Town ",
+        "category": "Events > Other"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "SA Workers Ceremony at The Coca-Cola Dome",
+        "category": "Events > Other"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0782,
+          -26.0022
+        ]
+      },
+      "properties": {
+        "name": "WRSA Gala Dinner at Gallagher Convention Centre",
+        "category": "Events > Other"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.944317,
+          -26.063713
+        ]
+      },
+      "properties": {
+        "name": "Sports for Life 2014 ",
+        "category": "Events > Outdoor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03221,
+          -26.06394
+        ]
+      },
+      "properties": {
+        "name": "Demartini: The Breakthrough Experience ",
+        "category": "Events > Seminar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03221,
+          -26.06394
+        ]
+      },
+      "properties": {
+        "name": "The Rural Telecoms Show Africa 2014 -Sandton Convention Centre",
+        "category": "Events > Telecomms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "A Handful of Keys ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0122222,
+          -26.2361111
+        ]
+      },
+      "properties": {
+        "name": "At the Edge ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "CIRQUE DE LA SYMPHONIE",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "Call Me Lee",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "Daughters of the Kings ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "ELVIS THE SHOW with NATHAN BELT ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "FIREFLY starring PJ POWERS ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.31833,
+          -26.6276
+        ]
+      },
+      "properties": {
+        "name": "Fifty Shades of Bambi",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "Full Moon",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0122222,
+          -26.2361111
+        ]
+      },
+      "properties": {
+        "name": "Hilarious Celebration - Gospel Comedy ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "Janice Honeyman's PETER PAN",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "LA BAYADERE",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "MONTY PYTHON'S SPAMALOT",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00452,
+          -26.013211
+        ]
+      },
+      "properties": {
+        "name": "Madame Zingara: After Forever Tour - Johannesburg",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "NGIYADANSA",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "One-Woman Farce ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "RUSSIAN BALLET STARS ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "SHADES of COLOUR",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "SOULFOOT - THE WORLD ON STAGE",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "THE LAST MOUSTACHE - TIM PLEWMAN",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.038807,
+          -26.191047
+        ]
+      },
+      "properties": {
+        "name": "THE NUTCRACKER BALLET",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "THE STARS OF AMERICAN BALLET ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "The Rocky Horror Show",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0122222,
+          -26.2361111
+        ]
+      },
+      "properties": {
+        "name": "Two Cowboys ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00947910000002,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "Vettie Vettie ",
+        "category": "Events > Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0426573,
+          -26.19038
+        ]
+      },
+      "properties": {
+        "name": "Tourism Workshop at Constitutional Hill Women's Goal Lekgotla Conference Room at the Women's jail",
+        "category": "Events > Travel & Tourism"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0371,
+          -26.1675
+        ]
+      },
+      "properties": {
+        "name": "Open Ferry Tour at Joburg Zoo",
+        "category": "Events > Wildlife & Nature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0371,
+          -26.1675
+        ]
+      },
+      "properties": {
+        "name": "Open Moonlight Tour at Joburg Zoo",
+        "category": "Events > Wildlife & Nature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053657,
+          -26.106557
+        ]
+      },
+      "properties": {
+        "name": "Old Mutual Trophy Wine Show Public Tasting Johannesburg ",
+        "category": "Events > Wine & Food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03221,
+          -26.06394
+        ]
+      },
+      "properties": {
+        "name": "The Wine Show",
+        "category": "Events > Wine & Food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1094108,
+          -26.1911873
+        ]
+      },
+      "properties": {
+        "name": "Abysinya Restaurant",
+        "category": "Restaurants > African"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9043949,
+          -26.2686043
+        ]
+      },
+      "properties": {
+        "name": "Kwa-Thabeng",
+        "category": "Restaurants > African"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.064559,
+          -26.054097
+        ]
+      },
+      "properties": {
+        "name": "Lekgotla",
+        "category": "Restaurants > African"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9034731,
+          -26.2379649
+        ]
+      },
+      "properties": {
+        "name": "Nambitha",
+        "category": "Restaurants > African"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9098126,
+          -26.2390262
+        ]
+      },
+      "properties": {
+        "name": "Sakhumzi Restaurant",
+        "category": "Restaurants > African"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8894798,
+          -26.2376985
+        ]
+      },
+      "properties": {
+        "name": "Wandies Place",
+        "category": "Restaurants > African"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.10001,
+          -26.1783
+        ]
+      },
+      "properties": {
+        "name": "Fisherman’s Plate",
+        "category": "Restaurants > Chinese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1244869,
+          -26.187476
+        ]
+      },
+      "properties": {
+        "name": "Kong Sing",
+        "category": "Restaurants > Chinese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0444041,
+          -26.1406967
+        ]
+      },
+      "properties": {
+        "name": "Lai Lai Gardens - Chinese Restaurant",
+        "category": "Restaurants > Chinese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.042398,
+          -26.2067669
+        ]
+      },
+      "properties": {
+        "name": "Lucky Moo",
+        "category": "Restaurants > Chinese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.06226,
+          -26.20337
+        ]
+      },
+      "properties": {
+        "name": "Swallows Inn Chinese Restaurant",
+        "category": "Restaurants > Chinese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0443556,
+          -26.1042124
+        ]
+      },
+      "properties": {
+        "name": "vida e caffè",
+        "category": "Restaurants > Coffee Shop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Bayleaf & Sage",
+        "category": "Restaurants > Contemporary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0650774,
+          -26.1300321
+        ]
+      },
+      "properties": {
+        "name": "Bellagio",
+        "category": "Restaurants > Contemporary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0493263,
+          -26.1320054
+        ]
+      },
+      "properties": {
+        "name": "Bellini's",
+        "category": "Restaurants > Contemporary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0170871,
+          -26.1414605
+        ]
+      },
+      "properties": {
+        "name": "Bottega",
+        "category": "Restaurants > Contemporary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Chefs in Motion",
+        "category": "Restaurants > Contemporary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0773245,
+          -26.1494321
+        ]
+      },
+      "properties": {
+        "name": "FAFF",
+        "category": "Restaurants > Contemporary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0171,
+          -26.1405
+        ]
+      },
+      "properties": {
+        "name": "Georges on 4th",
+        "category": "Restaurants > Contemporary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0031846,
+          -26.0212857
+        ]
+      },
+      "properties": {
+        "name": "Kyoto",
+        "category": "Restaurants > Contemporary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9980685,
+          -26.0856715
+        ]
+      },
+      "properties": {
+        "name": "Annica’s Deli",
+        "category": "Restaurants > Deli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Eat Your Heart Out",
+        "category": "Restaurants > Deli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.153228,
+          -26.0726115
+        ]
+      },
+      "properties": {
+        "name": "Spur",
+        "category": "Restaurants > Family"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.84398,
+          -28.22652
+        ]
+      },
+      "properties": {
+        "name": "54 on Bath Hotel",
+        "category": "Restaurants > Fine Dining"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.06109,
+          -26.1063699
+        ]
+      },
+      "properties": {
+        "name": "Auberge Michel",
+        "category": "Restaurants > Fine Dining"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0618828,
+          -26.0406257
+        ]
+      },
+      "properties": {
+        "name": "Browns of Rivonia",
+        "category": "Restaurants > Fine Dining"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.032389,
+          -26.201654
+        ]
+      },
+      "properties": {
+        "name": "Gramadoelas",
+        "category": "Restaurants > Fine Dining"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.026054,
+          -26.0617081
+        ]
+      },
+      "properties": {
+        "name": "La Campagnola",
+        "category": "Restaurants > Fine Dining"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.05604,
+          -26.09666
+        ]
+      },
+      "properties": {
+        "name": "Le Carnard",
+        "category": "Restaurants > Fine Dining"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0585599,
+          -26.1113687
+        ]
+      },
+      "properties": {
+        "name": "Linger Longer",
+        "category": "Restaurants > Fine Dining"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.04384,
+          -26.14675
+        ]
+      },
+      "properties": {
+        "name": "The Monarch Hotel Restaurant",
+        "category": "Restaurants > Fine Dining"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03561,
+          -26.11212
+        ]
+      },
+      "properties": {
+        "name": "The Saxon",
+        "category": "Restaurants > Fine Dining"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "McDonalds",
+        "category": "Restaurants > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0244639,
+          -26.0563986
+        ]
+      },
+      "properties": {
+        "name": "Ghazal North Indian Restaurant",
+        "category": "Restaurants > Indian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0163374,
+          -26.0233106
+        ]
+      },
+      "properties": {
+        "name": "Karma Nirvana",
+        "category": "Restaurants > Indian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0111263,
+          -26.1464032
+        ]
+      },
+      "properties": {
+        "name": "Spiceburg Restaurant",
+        "category": "Restaurants > Indian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Allora",
+        "category": "Restaurants > Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0502159,
+          -26.1290358
+        ]
+      },
+      "properties": {
+        "name": "Assaggi",
+        "category": "Restaurants > Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.250292,
+          -26.167435
+        ]
+      },
+      "properties": {
+        "name": "Casalinga Ristorante",
+        "category": "Restaurants > Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0239039,
+          -26.0457089
+        ]
+      },
+      "properties": {
+        "name": "Col'Cacchio",
+        "category": "Restaurants > Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.02994,
+          -26.14455
+        ]
+      },
+      "properties": {
+        "name": "La Cucina di Ciro",
+        "category": "Restaurants > Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0742212,
+          -26.1693607
+        ]
+      },
+      "properties": {
+        "name": "La Rustica",
+        "category": "Restaurants > Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.04913,
+          -26.12716
+        ]
+      },
+      "properties": {
+        "name": "Mastrantonio Ristorante",
+        "category": "Restaurants > Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.112118,
+          -26.1449952
+        ]
+      },
+      "properties": {
+        "name": "Tortellini d'Oro",
+        "category": "Restaurants > Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07673,
+          -26.15721
+        ]
+      },
+      "properties": {
+        "name": "The Barrio",
+        "category": "Restaurants > Kosher"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0220749,
+          -26.127178
+        ]
+      },
+      "properties": {
+        "name": "Cnr Cafe",
+        "category": "Restaurants > Light Cafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.026093,
+          -26.1601709
+        ]
+      },
+      "properties": {
+        "name": "Scusi",
+        "category": "Restaurants > Light Cafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0476009,
+          -26.0997267
+        ]
+      },
+      "properties": {
+        "name": "Beirut Restaurant",
+        "category": "Restaurants > Mediterranean"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.027,
+          -26.01369
+        ]
+      },
+      "properties": {
+        "name": "Byzance",
+        "category": "Restaurants > Mediterranean"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0561643,
+          -26.1013808
+        ]
+      },
+      "properties": {
+        "name": "Filakia",
+        "category": "Restaurants > Mediterranean"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0023997,
+          -26.0288416
+        ]
+      },
+      "properties": {
+        "name": "Funtastico",
+        "category": "Restaurants > Mediterranean"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.01207,
+          -26.16225
+        ]
+      },
+      "properties": {
+        "name": "Fresh Earth",
+        "category": "Restaurants > Organic & Vegetarian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0271894,
+          -26.1604152
+        ]
+      },
+      "properties": {
+        "name": "Gingko",
+        "category": "Restaurants > Organic & Vegetarian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0095683,
+          -26.2156514
+        ]
+      },
+      "properties": {
+        "name": "Shayona",
+        "category": "Restaurants > Organic & Vegetarian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0120584,
+          -26.1463987
+        ]
+      },
+      "properties": {
+        "name": "The Greenside Cafe",
+        "category": "Restaurants > Organic & Vegetarian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0499,
+          -26.12932
+        ]
+      },
+      "properties": {
+        "name": "Fishmonger",
+        "category": "Restaurants > Seafood"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0561643,
+          -26.1013808
+        ]
+      },
+      "properties": {
+        "name": "Koi",
+        "category": "Restaurants > Seafood"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0494639,
+          -26.1304168
+        ]
+      },
+      "properties": {
+        "name": "Yamato",
+        "category": "Restaurants > Seafood"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Butcher Shop & Grill",
+        "category": "Restaurants > Steakhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03112,
+          -26.26285
+        ]
+      },
+      "properties": {
+        "name": "Calisto's",
+        "category": "Restaurants > Steakhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.028725,
+          -26.144799
+        ]
+      },
+      "properties": {
+        "name": "Local Grill",
+        "category": "Restaurants > Steakhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0553725,
+          -26.1047732
+        ]
+      },
+      "properties": {
+        "name": "The Bull Run",
+        "category": "Restaurants > Steakhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0435986,
+          -26.1430521
+        ]
+      },
+      "properties": {
+        "name": "The Grillhouse",
+        "category": "Restaurants > Steakhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.065208,
+          -26.1610449
+        ]
+      },
+      "properties": {
+        "name": "The Local Grill",
+        "category": "Restaurants > Steakhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0671092,
+          -26.1352613
+        ]
+      },
+      "properties": {
+        "name": "The Meat Company",
+        "category": "Restaurants > Steakhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.064559,
+          -26.054097
+        ]
+      },
+      "properties": {
+        "name": "NANDOS",
+        "category": "Restaurants > Take-aways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9893301,
+          -26.096295
+        ]
+      },
+      "properties": {
+        "name": "Steers",
+        "category": "Restaurants > Take-aways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0094791,
+          -26.0267824
+        ]
+      },
+      "properties": {
+        "name": "Kai Thai",
+        "category": "Restaurants > Thai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.099293,
+          -26.1790819
+        ]
+      },
+      "properties": {
+        "name": "Sai Thai",
+        "category": "Restaurants > Thai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03335,
+          -26.15074
+        ]
+      },
+      "properties": {
+        "name": "Hadeda Marketing",
+        "category": "Shopping >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.05955,
+          -26.20602
+        ]
+      },
+      "properties": {
+        "name": "Sarai Interior Design & Decor cc",
+        "category": "Shopping >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0976577,
+          -26.1336426
+        ]
+      },
+      "properties": {
+        "name": "Abafazi",
+        "category": "Shopping > African Style"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03999,
+          -26.14455
+        ]
+      },
+      "properties": {
+        "name": "African Craft Market",
+        "category": "Shopping > African Style"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8562889,
+          -26.1411677
+        ]
+      },
+      "properties": {
+        "name": "Ees Millinery",
+        "category": "Shopping > African Style"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03345,
+          -26.15055
+        ]
+      },
+      "properties": {
+        "name": "Kim Sacks Gallery",
+        "category": "Shopping > African Style"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Ngwenya Glass Village",
+        "category": "Shopping > African Style"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0504478,
+          -26.2036409
+        ]
+      },
+      "properties": {
+        "name": "Out of Africa Fashions",
+        "category": "Shopping > African Style"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0060642,
+          -26.1752236
+        ]
+      },
+      "properties": {
+        "name": "The African Toyshop",
+        "category": "Shopping > African Style"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.902484,
+          -26.259475
+        ]
+      },
+      "properties": {
+        "name": "Vlisco Fabrics",
+        "category": "Shopping > African Style"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0488775,
+          -26.1320991
+        ]
+      },
+      "properties": {
+        "name": "Private Collections",
+        "category": "Shopping > Antiques"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0072724,
+          -26.1823915
+        ]
+      },
+      "properties": {
+        "name": "Boekehuis",
+        "category": "Shopping > Bookstores"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9785211,
+          -26.0861703
+        ]
+      },
+      "properties": {
+        "name": "Book Bazaar",
+        "category": "Shopping > Bookstores"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.01247,
+          -26.16186
+        ]
+      },
+      "properties": {
+        "name": "Bookbinding Creations",
+        "category": "Shopping > Bookstores"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.02843,
+          -26.16268
+        ]
+      },
+      "properties": {
+        "name": "Collectables and Collectable Books",
+        "category": "Shopping > Bookstores"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.055679,
+          -26.2040755
+        ]
+      },
+      "properties": {
+        "name": "Collectors Treasury",
+        "category": "Shopping > Bookstores"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0405615,
+          -26.205021
+        ]
+      },
+      "properties": {
+        "name": "Frank R Thorold",
+        "category": "Shopping > Bookstores"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.013484,
+          -26.1742439
+        ]
+      },
+      "properties": {
+        "name": "Love Jozi",
+        "category": "Shopping > Clothing - SA and African Designers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0776936,
+          -26.1274936
+        ]
+      },
+      "properties": {
+        "name": "Amatuli Fine Art",
+        "category": "Shopping > Collectibles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.02617,
+          -26.15973
+        ]
+      },
+      "properties": {
+        "name": "Art Africa",
+        "category": "Shopping > Collectibles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.01557,
+          -26.18996
+        ]
+      },
+      "properties": {
+        "name": "Liebermann Pottery Gallery",
+        "category": "Shopping > Collectibles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Royal Enfield",
+        "category": "Shopping > Collectibles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00942,
+          -26.2152499
+        ]
+      },
+      "properties": {
+        "name": "Kavib Nappy Warehouse",
+        "category": "Shopping > Discount Centres"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.08926,
+          -26.08733
+        ]
+      },
+      "properties": {
+        "name": "Meltz Factory Shop",
+        "category": "Shopping > Discount Centres"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.035598,
+          -26.20157
+        ]
+      },
+      "properties": {
+        "name": "Oriental Plaza",
+        "category": "Shopping > Discount Centres"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0063889,
+          -26.0936111
+        ]
+      },
+      "properties": {
+        "name": "The Maizeman cc Factory Shop",
+        "category": "Shopping > Discount Centres"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0173986,
+          -26.1920682
+        ]
+      },
+      "properties": {
+        "name": "The Towel Factory Shop",
+        "category": "Shopping > Discount Centres"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.041747,
+          -26.143347
+        ]
+      },
+      "properties": {
+        "name": "A Portas/The Shunting Yard",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0140309,
+          -26.1659234
+        ]
+      },
+      "properties": {
+        "name": "Doppio Zero",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.07124,
+          -26.19432
+        ]
+      },
+      "properties": {
+        "name": "Fama Delicatessen",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0119108,
+          -26.1623969
+        ]
+      },
+      "properties": {
+        "name": "Fruits & Roots",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0361296,
+          -26.2048044
+        ]
+      },
+      "properties": {
+        "name": "KwaZulu Muti - Museum of Man and Science",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9793036,
+          -26.0785682
+        ]
+      },
+      "properties": {
+        "name": "Lamarina Foods",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9754033,
+          -26.0831151
+        ]
+      },
+      "properties": {
+        "name": "Seemann's Quality Meat Products",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.08133,
+          -26.16507
+        ]
+      },
+      "properties": {
+        "name": "Super Sconto",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.01368,
+          -26.18158
+        ]
+      },
+      "properties": {
+        "name": "The Chef",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0511381,
+          -26.1319568
+        ]
+      },
+      "properties": {
+        "name": "Thrupps",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.01363,
+          -26.17454
+        ]
+      },
+      "properties": {
+        "name": "Winesense",
+        "category": "Shopping > General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Unique Image Unisex Hair Salon",
+        "category": "Shopping > Hair & Grooming"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0671092,
+          -26.1352613
+        ]
+      },
+      "properties": {
+        "name": "Melrose Arch",
+        "category": "Shopping > High Streets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.040856,
+          -26.2017719
+        ]
+      },
+      "properties": {
+        "name": "Dante Casual",
+        "category": "Shopping > Jewellery - SA designers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0920706,
+          -26.0529018
+        ]
+      },
+      "properties": {
+        "name": "Louis Datnow Luggage",
+        "category": "Shopping > Jewellery - SA designers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0053876,
+          -26.1875708
+        ]
+      },
+      "properties": {
+        "name": "Nike",
+        "category": "Shopping > Jewellery - SA designers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.023262,
+          -26.207782
+        ]
+      },
+      "properties": {
+        "name": "A-Z Baby's World",
+        "category": "Shopping > Kids Clothing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0209199,
+          -26.0405061
+        ]
+      },
+      "properties": {
+        "name": "Naartjie Clothing",
+        "category": "Shopping > Kids Clothing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0488103,
+          -26.2032501
+        ]
+      },
+      "properties": {
+        "name": "Annarose Lingerie and Sleepwear",
+        "category": "Shopping > Local Fashion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.04413,
+          -26.16023
+        ]
+      },
+      "properties": {
+        "name": "Leopard Frock",
+        "category": "Shopping > Local Fashion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0527674,
+          -26.2042688
+        ]
+      },
+      "properties": {
+        "name": "Carlton Centre",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9062862,
+          -26.1299174
+        ]
+      },
+      "properties": {
+        "name": "Clearwater Mall",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9948914,
+          -26.1592437
+        ]
+      },
+      "properties": {
+        "name": "Crestar Mall",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.849064,
+          -26.224822
+        ]
+      },
+      "properties": {
+        "name": "Dobsonville Shopping Centre",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1201733,
+          -26.1838021
+        ]
+      },
+      "properties": {
+        "name": "Eastgate Mall",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0003996,
+          -26.0222806
+        ]
+      },
+      "properties": {
+        "name": "Fourways Crossing",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0003996,
+          -26.0222806
+        ]
+      },
+      "properties": {
+        "name": "Fourways Mall",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.034902,
+          -26.1357179
+        ]
+      },
+      "properties": {
+        "name": "Hyde Park Corner",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.05349,
+          -26.16695
+        ]
+      },
+      "properties": {
+        "name": "Killarney Mall",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9503415,
+          -26.2605039
+        ]
+      },
+      "properties": {
+        "name": "Maponya Mall",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0003996,
+          -26.0222806
+        ]
+      },
+      "properties": {
+        "name": "Montecasino",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.062168,
+          -26.0809459
+        ]
+      },
+      "properties": {
+        "name": "Nelson Mandela Square",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9550121,
+          -26.0440738
+        ]
+      },
+      "properties": {
+        "name": "Northgate",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0408147,
+          -26.1466988
+        ]
+      },
+      "properties": {
+        "name": "Rosebank Mall",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.062168,
+          -26.0809459
+        ]
+      },
+      "properties": {
+        "name": "Sandton City",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0088093,
+          -26.2563649
+        ]
+      },
+      "properties": {
+        "name": "Southgate Mall",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9963883,
+          -26.0993158
+        ]
+      },
+      "properties": {
+        "name": "The Brightwaters Commons",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.053877,
+          -26.267169
+        ]
+      },
+      "properties": {
+        "name": "The Glen",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.042087,
+          -26.145027
+        ]
+      },
+      "properties": {
+        "name": "The Mall of Rosebank",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0435824,
+          -26.1445591
+        ]
+      },
+      "properties": {
+        "name": "The Zone @ Rosebank",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0553725,
+          -26.1047732
+        ]
+      },
+      "properties": {
+        "name": "Village Walk",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8812775,
+          -26.1453965
+        ]
+      },
+      "properties": {
+        "name": "Westgate Mall",
+        "category": "Shopping > Malls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.988395,
+          -26.177566
+        ]
+      },
+      "properties": {
+        "name": "Botany",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1089838,
+          -26.1783899
+        ]
+      },
+      "properties": {
+        "name": "Bruma Lake Flea Market",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0294505,
+          -26.0452519
+        ]
+      },
+      "properties": {
+        "name": "Bryanston Organic & Natural Market",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2495808,
+          -26.1795442
+        ]
+      },
+      "properties": {
+        "name": "East Rand Flea Market",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Hillfox Market",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0827638,
+          -26.1640581
+        ]
+      },
+      "properties": {
+        "name": "Hospice Charity Market",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0863708,
+          -26.1910029
+        ]
+      },
+      "properties": {
+        "name": "Kitchener Motors",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.035598,
+          -26.20157
+        ]
+      },
+      "properties": {
+        "name": "Market Theatre Flea Market",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.026799,
+          -26.2350726
+        ]
+      },
+      "properties": {
+        "name": "Panorama Flea Market",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0408147,
+          -26.1466988
+        ]
+      },
+      "properties": {
+        "name": "Rooftop Market",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Tapenade Olive Shop",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9963883,
+          -26.0993158
+        ]
+      },
+      "properties": {
+        "name": "The Market Place",
+        "category": "Shopping > Markets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0813054,
+          -26.1127645
+        ]
+      },
+      "properties": {
+        "name": "Cane and Wicker World",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0654066,
+          -26.1981936
+        ]
+      },
+      "properties": {
+        "name": "Character Linens",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0815792,
+          -26.1059335
+        ]
+      },
+      "properties": {
+        "name": "Curtain Drops",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0562641,
+          -26.1966473
+        ]
+      },
+      "properties": {
+        "name": "De Klerk's Coppersmith",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.01807,
+          -26.1938
+        ]
+      },
+      "properties": {
+        "name": "Dish",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.01057,
+          -26.14567
+        ]
+      },
+      "properties": {
+        "name": "Garden Bleu",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.03335,
+          -26.15074
+        ]
+      },
+      "properties": {
+        "name": "Hadeda",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "La Basse-cour",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.973482,
+          -26.07799
+        ]
+      },
+      "properties": {
+        "name": "The Lounge Warehouse",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.08236,
+          -26.05332
+        ]
+      },
+      "properties": {
+        "name": "Wimpole Interiors",
+        "category": "Shopping > Stylish Décor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.04397,
+          -26.2166569
+        ]
+      },
+      "properties": {
+        "name": "The Pyramid Conference & Venue Centre cc",
+        "category": "Sports, Wellness & Health Facility >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.090869,
+          -26.0430365
+        ]
+      },
+      "properties": {
+        "name": "Vodacom World of Golf ",
+        "category": "Sports, Wellness & Health Facility >  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Boxing South Africa",
+        "category": "Sports, Wellness & Health Facility > Boxing "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0477333,
+          -26.1361589
+        ]
+      },
+      "properties": {
+        "name": "Cricket South Africa",
+        "category": "Sports, Wellness & Health Facility > Cricket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00732,
+          -26.06155
+        ]
+      },
+      "properties": {
+        "name": "Bryanston Country Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9367705,
+          -26.1903206
+        ]
+      },
+      "properties": {
+        "name": "CMR Golf Club ",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0118691,
+          -26.183345
+        ]
+      },
+      "properties": {
+        "name": "Country Club Johannesburg",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Crown Mines Golf Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9955921,
+          -25.9875984
+        ]
+      },
+      "properties": {
+        "name": "Dainfern Golf and Country Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0541177,
+          -26.2800087
+        ]
+      },
+      "properties": {
+        "name": "Glenvista Country Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Killarney Country Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.079052,
+          -26.1782909
+        ]
+      },
+      "properties": {
+        "name": "Observatory Golf Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.966729,
+          -26.114344
+        ]
+      },
+      "properties": {
+        "name": "Randpark Golf Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.108694,
+          -26.1558428
+        ]
+      },
+      "properties": {
+        "name": "Royal Johannesburg & Kensington Golf Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.108694,
+          -26.1558428
+        ]
+      },
+      "properties": {
+        "name": "Royal Johannesburg Golf Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0178768,
+          -26.3157844
+        ]
+      },
+      "properties": {
+        "name": "Southdowns Country Club",
+        "category": "Sports, Wellness & Health Facility > Golf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0146413,
+          -26.1056413
+        ]
+      },
+      "properties": {
+        "name": "Your Yoga Space",
+        "category": "Sports, Wellness & Health Facility > Health & Leisure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1262927,
+          -25.9991795
+        ]
+      },
+      "properties": {
+        "name": "Motorsport South Africa",
+        "category": "Sports, Wellness & Health Facility > Motor sport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.060809,
+          -26.197572
+        ]
+      },
+      "properties": {
+        "name": "Ellis Park Stadium / Coca Cola Park",
+        "category": "Sports, Wellness & Health Facility > Rugby"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Bidvest Wits F.C.",
+        "category": "Sports, Wellness & Health Facility > Soccer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.957118,
+          -26.2900198
+        ]
+      },
+      "properties": {
+        "name": "Kaizer Chiefs F.C.",
+        "category": "Sports, Wellness & Health Facility > Soccer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.866667,
+          -26.216667
+        ]
+      },
+      "properties": {
+        "name": "Moroka Swallows F.C.",
+        "category": "Sports, Wellness & Health Facility > Soccer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0418,
+          -26.18212
+        ]
+      },
+      "properties": {
+        "name": "ORLANDO PIRATES FOOTBALL CLUB",
+        "category": "Sports, Wellness & Health Facility > Soccer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3023568,
+          -26.1848407
+        ]
+      },
+      "properties": {
+        "name": "Acapilia Laser Salon and Day Spa",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Amani African Spas",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.00397,
+          -26.0254685
+        ]
+      },
+      "properties": {
+        "name": "Body Sense Day Spa",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0353681,
+          -26.1597642
+        ]
+      },
+      "properties": {
+        "name": "Camelot Spa",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.052775,
+          -26.107453
+        ]
+      },
+      "properties": {
+        "name": "DaVinci Spa & Gym",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.075566,
+          -26.0804379
+        ]
+      },
+      "properties": {
+        "name": "Fairlawns Boutique Spa ",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      },
+      "properties": {
+        "name": "Just Haven",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9885992,
+          -26.1095951
+        ]
+      },
+      "properties": {
+        "name": "Kai Thai Spa",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0434703,
+          -26.1432024
+        ]
+      },
+      "properties": {
+        "name": "Phumula Spa at Hyatt Regency",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0156541,
+          -26.1427876
+        ]
+      },
+      "properties": {
+        "name": "Puri Thai Massage",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.051697,
+          -26.10679
+        ]
+      },
+      "properties": {
+        "name": "Sandton Sun Spa ",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.04397,
+          -26.2166569
+        ]
+      },
+      "properties": {
+        "name": "The Pyramid Day Spa",
+        "category": "Sports, Wellness & Health Facility > Spas & Pampering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.056239,
+          -26.155767
+        ]
+      },
+      "properties": {
+        "name": "Athletics South Africa",
+        "category": "Sports, Wellness & Health Facility > Sports Associations"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.966729,
+          -26.114344
+        ]
+      },
+      "properties": {
+        "name": "South African Golf Association",
+        "category": "Sports, Wellness & Health Facility > Sports Associations"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.06021,
+          -26.19326
+        ]
+      },
+      "properties": {
+        "name": "Swimming South Africa",
+        "category": "Sports, Wellness & Health Facility > Sports Associations"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9415329,
+          -26.0637101
+        ]
+      },
+      "properties": {
+        "name": "COCA COLA DOME",
+        "category": "Sports, Wellness & Health Facility > Sports Venues & Stadiums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.952556,
+          -26.035351
+        ]
+      },
+      "properties": {
+        "name": "Fourways Action Cricket Arena",
+        "category": "Sports, Wellness & Health Facility > Sports Venues & Stadiums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9278293,
+          -26.2419998
+        ]
+      },
+      "properties": {
+        "name": "Orlando Stadium",
+        "category": "Sports, Wellness & Health Facility > Sports Venues & Stadiums"
+      }
+    }
+  ]
+}
