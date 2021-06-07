@@ -5,18 +5,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
+import android.text.SpannableString;
 
 import com.mapbox.api.directions.v5.DirectionsCriteria;
 import com.mapbox.api.directions.v5.models.DirectionsRoute;
 import com.mapbox.api.directions.v5.models.RouteOptions;
 import com.mapbox.geojson.Point;
 import com.mapbox.mapboxsdk.Mapbox;
+import com.mapbox.navigation.base.formatter.DistanceFormatter;
 import com.mapbox.navigation.base.options.NavigationOptions;
 import com.mapbox.navigation.core.MapboxNavigation;
 import com.mapbox.navigation.core.directions.session.RoutesRequestCallback;
 import com.mapbox.navigation.ui.NavigationView;
 import com.mapbox.navigation.ui.NavigationViewOptions;
 import com.mapbox.navigation.ui.OnNavigationReadyCallback;
+import com.mapbox.navigation.ui.feedback.NavigationFeedbackOptions;
 import com.mapbox.navigation.ui.listeners.NavigationListener;
 import com.mapbox.navigation.ui.map.NavigationMapboxMap;
 import com.mapbox.navigation.ui.route.NavigationMapRoute;
@@ -123,7 +126,14 @@ public class NavigationActivity
                 return;
             }
 
+            NavigationOptions navopts2 = new NavigationOptions.Builder(NavigationActivity.this)
+                    .distanceFormatter(v -> {
+//                        return new SpannableString(((int)(((double)v) / 1000)) + " MILES");
+                        return new SpannableString(((int)(((double)v) / 1.609d / 1000)) + " KM");
+                    })
+                    .build();
             NavigationViewOptions navViewOptions = NavigationViewOptions.builder(NavigationActivity.this)
+                    .navigationOptions(navopts2)
                     .navigationListener(NavigationActivity.this)
                     .directionsRoute(tmpRoute)
                     .shouldSimulateRoute(false)

@@ -20,6 +20,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.mapbox.geojson.Feature;
+import com.opsc7311.mapple.auth.data.LoginRepository;
 import com.opsc7311.mapple.auth.data.model.LoggedInUser;
 import com.opsc7311.mapple.main.NavigationActivity;
 
@@ -48,7 +49,7 @@ public class PointOfInterest extends AppCompatActivity {
         Bundle configs = getIntent().getExtras();
 
         Feature feature = Feature.fromJson((String)configs.get("feature"));
-        LoggedInUser user; //= (LoggedInUser) configs.get("user");
+        LoggedInUser user = LoginRepository.getInstance().isLoggedIn();
 
 
         double currentLong = configs.getDouble("currentLong");
@@ -84,16 +85,16 @@ public class PointOfInterest extends AppCompatActivity {
         swi_favourite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View View) {
-//                if (swi_favourite.isChecked()) {
-//                    user.getUserRef()
-//                            .child("settings").child("favourites")
-//                            .setValue(feature.getStringProperty("name"));
-//                } else {
-//                    user.getUserRef()
-//                            .child("settings").child("favourites")
-//                            .child(feature.getStringProperty("name"))
-//                            .removeValue();
-//                }
+                if (swi_favourite.isChecked()) {
+                    user.getUserRef()
+                            .child("settings").child("favourites")
+                            .setValue(feature.getStringProperty("name"));
+                } else {
+                    user.getUserRef()
+                            .child("settings").child("favourites")
+                            .child(feature.getStringProperty("name"))
+                            .removeValue();
+                }
             }
         });
     }

@@ -49,11 +49,11 @@ public class LoginActivity extends AppCompatActivity {
 //                .get(LoginViewModel.class);
         loginViewModel =  new LoginViewModel(LoginRepository.getInstance(new LoginDataSource()));
 
-        LoggedInUser user = loginViewModel.isLoggedIn();
-        if (user != null) {
-            this.updateUiWithUser(user);
-            return;
-        }
+//        LoggedInUser user = loginViewModel.isLoggedIn();
+//        if (user != null) {
+//            this.updateUiWithUser(user);
+//            return;
+//        }
 
         final EditText usernameEditText = binding.username;
         final EditText passwordEditText = binding.password;
@@ -150,6 +150,7 @@ public class LoginActivity extends AppCompatActivity {
         String welcome = getString(R.string.welcome) + " " + model.getDisplayName();
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
         Intent switchToMainActivity = new Intent(this, MainActivity.class);
+//        switchToMainActivity.putExtra("user" , model);
         startActivity(switchToMainActivity);
     }
 

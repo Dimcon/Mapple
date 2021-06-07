@@ -9,6 +9,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.FirebaseDatabase;
 import com.opsc7311.mapple.R;
 import com.opsc7311.mapple.auth.data.model.LoggedInUser;
 
@@ -32,8 +34,16 @@ public class LoginDataSource {
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
                         FirebaseUser user = mAuth.getCurrentUser();
-                        LoggedInUser myUser = new LoggedInUser(user);
-                        loginResult.setValue(new Result.Success<LoggedInUser>(myUser));
+                        FirebaseDatabase.getInstance().getReference("user")
+                                .child(user.getUid()).child("settingsobj").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull @NotNull Task<DataSnapshot> task) {
+                                DataSnapshot snap = task.getResult();
+                                String settings = (String) snap.getValue();
+                                LoggedInUser myUser = LoggedInUser.getFromString(settings, user);
+                                loginResult.setValue(new Result.Success<LoggedInUser>(myUser));
+                            }
+                        });
                     } else {
                         Result.Error err = new Result.Error(new IOException("Error logging in", task.getException()));
                         loginResult.setValue(err);

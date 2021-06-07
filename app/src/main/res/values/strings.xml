@@ -519,4 +519,13 @@
 
     <!-- Extrusion color expression highlight -->
     <string name="tap_on_building_to_highlight">Tap on a building to highlight it</string>
+    <string name="searchbutton">SearchButton</string>
+    <string name="settingsbutton">settingsbutton</string>
+    <string name="meausrements">Meausrements</string>
+    <string name="perfered_landmark_type">Perfered Landmark Type</string>
+    <string name="save">Save</string>
+    <string name="allow_other_users_to_see_your_location">Allow other users to see your location</string>
+    <string name="my_Location">myLocation</string>
+    <string name="logoutbutton">LogoutButton</string>
+    <string name="Logout_message">You have been logged out.</string>
 </resources>
