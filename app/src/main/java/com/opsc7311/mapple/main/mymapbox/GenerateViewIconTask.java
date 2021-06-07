@@ -8,7 +8,6 @@ import android.os.AsyncTask;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,17 +16,14 @@ import androidx.annotation.NonNull;
 import com.mapbox.geojson.Feature;
 import com.mapbox.geojson.FeatureCollection;
 import com.mapbox.mapboxsdk.annotations.BubbleLayout;
-import com.mapbox.navigation.ui.internal.NavigationContract;
-import com.opsc7311.mapple.PointOfInterest;
 import com.opsc7311.mapple.R;
-import com.opsc7311.mapple.main.MainActivity;
+import com.opsc7311.mapple.main.NavigationActivity;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
 
-import static androidx.core.content.ContextCompat.startActivity;
-
-public class MyGenerateViewIconTask {
+public class GenerateViewIconTask extends
+        AsyncTask<FeatureCollection, Void, HashMap<String, Bitmap>> {
     /**
      * AsyncTask to generate Bitmap from Views to be used as iconImage in a SymbolLayer.
      * <p>
@@ -37,22 +33,20 @@ public class MyGenerateViewIconTask {
      * Generating Views on background thread since we are not going to be adding them to the view hierarchy.
      * </p>
      */
-    public static class GenerateViewIconTask extends
-            AsyncTask<FeatureCollection, Void, HashMap<String, Bitmap>> {
 
         private final HashMap<String, View> viewMap = new HashMap<String, View>();
-        private final WeakReference<MainActivityMapFeatures> activityRef;
+        private final WeakReference<MapFeatures> activityRef;
         private final boolean refreshSource;
 
-         GenerateViewIconTask(MainActivityMapFeatures activity, boolean refreshSource) {
-            this.activityRef = new WeakReference<MainActivityMapFeatures>(activity);
+         GenerateViewIconTask(MapFeatures activity, boolean refreshSource) {
+            this.activityRef = new WeakReference<MapFeatures>(activity);
             this.refreshSource = refreshSource;
         }
 
         @SuppressWarnings("WrongThread")
         @Override
         protected HashMap<String, Bitmap> doInBackground(FeatureCollection... params) {
-            MainActivityMapFeatures activity = activityRef.get();
+            MapFeatures activity = activityRef.get();
             if (activity != null) {
                 HashMap<String, Bitmap> imagesMap = new HashMap<String, Bitmap>();
                 LayoutInflater inflater = LayoutInflater.from(activity.mainActivity);
@@ -63,18 +57,18 @@ public class MyGenerateViewIconTask {
                     BubbleLayout bubbleLayout = (BubbleLayout)
                             inflater.inflate(R.layout.symbol_layer_info_window_layout_callout, null);
 
-                    String name = feature.getStringProperty(MainActivityMapFeatures.PROPERTY_NAME);
+                    String name = feature.getStringProperty(MapFeatures.PROPERTY_NAME);
                     TextView titleTextView = bubbleLayout.findViewById(R.id.info_window_title);
                     Button btnNavigate = bubbleLayout.findViewById(R.id.navigate_button);
 
                     btnNavigate.setOnClickListener(v -> {
-                        Intent switchToMainActivity = new Intent(activity.mainActivity, PointOfInterest.class);
+                        Intent switchToMainActivity = new Intent(activity.mainActivity, NavigationActivity.class);
                         activity.mainActivity.startActivity(switchToMainActivity);
                     });
 
                     titleTextView.setText(name);
 
-                    String style = feature.getStringProperty(MainActivityMapFeatures.PROPERTY_CAPITAL);
+                    String style = feature.getStringProperty(MapFeatures.PROPERTY_CAPITAL);
                     TextView descriptionTextView = bubbleLayout.findViewById(R.id.info_window_description);
                     descriptionTextView.setText(
                             String.format(activity.mainActivity.getString(R.string.capital), style));
@@ -86,7 +80,7 @@ public class MyGenerateViewIconTask {
 
                     bubbleLayout.setArrowPosition(measuredWidth / 2 - 5);
 
-                    Bitmap bitmap = MyGenerateViewIconTask.SymbolGenerator.generate(bubbleLayout);
+                    Bitmap bitmap = com.opsc7311.mapple.main.mymapbox.GenerateViewIconTask.SymbolGenerator.generate(bubbleLayout);
                     imagesMap.put(name, bitmap);
                     viewMap.put(name, bubbleLayout);
                 }
@@ -100,7 +94,7 @@ public class MyGenerateViewIconTask {
         @Override
         protected void onPostExecute(HashMap<String, Bitmap> bitmapHashMap) {
             super.onPostExecute(bitmapHashMap);
-            MainActivityMapFeatures activity = activityRef.get();
+            MapFeatures activity = activityRef.get();
             if (activity != null && bitmapHashMap != null) {
                 activity.setImageGenResults(bitmapHashMap);
                 if (refreshSource) {
@@ -109,7 +103,6 @@ public class MyGenerateViewIconTask {
             }
             Toast.makeText(activity.mainActivity, R.string.tap_on_marker_instruction, Toast.LENGTH_SHORT).show();
         }
-    }
 
     private static class SymbolGenerator {
 

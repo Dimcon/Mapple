@@ -1,5 +1,6 @@
 package com.opsc7311.mapple.main.mymapbox;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.PointF;
 
@@ -7,15 +8,17 @@ import androidx.annotation.NonNull;
 
 import com.mapbox.geojson.Feature;
 import com.mapbox.geojson.FeatureCollection;
+import com.mapbox.geojson.Point;
 import com.mapbox.mapboxsdk.geometry.LatLng;
 import com.mapbox.mapboxsdk.maps.MapView;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
 import com.mapbox.mapboxsdk.maps.Style;
 import com.mapbox.mapboxsdk.style.layers.SymbolLayer;
 import com.mapbox.mapboxsdk.style.sources.GeoJsonSource;
+import com.opsc7311.mapple.PointOfInterest;
 import com.opsc7311.mapple.R;
 import com.opsc7311.mapple.main.MainActivity;
+import com.opsc7311.mapple.main.NavigationActivity;
 
 import android.graphics.BitmapFactory;
 import android.widget.Toast;
@@ -36,7 +39,7 @@ import org.jetbrains.annotations.NotNull;
 
 import static com.mapbox.mapboxsdk.style.expressions.Expression.literal;
 
-public class MainActivityMapFeatures implements
+public class MapFeatures implements
         MapboxMap.OnMapClickListener {
 
     public MapboxMap mapboxMap;
@@ -54,15 +57,15 @@ public class MainActivityMapFeatures implements
     public GeoJsonSource source;
     public FeatureCollection featureCollection;
 
-    public MainActivityMapFeatures(MapView mapView, MainActivity mainActivity) {
+    public MapFeatures(MapView mapView, MainActivity mainActivity) {
         this.mapView = mapView;
         this.mainActivity = mainActivity;
     }
 
     public void onMapReadyAndStyleLoaded(@NonNull @NotNull MapboxMap mapboxMap, Style style) {
         this.mapboxMap = mapboxMap;
-        new MyLoadGeoJsonDataTask.LoadGeoJsonDataTask(MainActivityMapFeatures.this).execute();
-        mapboxMap.addOnMapClickListener(MainActivityMapFeatures.this);
+        new LoadGeoJsonDataTask(MapFeatures.this).execute();
+        mapboxMap.addOnMapClickListener(MapFeatures.this);
     }
 
 //    @Override
@@ -104,6 +107,7 @@ public class MainActivityMapFeatures implements
      */
     private void setupSource(@NonNull Style loadedStyle) {
         source = new GeoJsonSource(GEOJSON_SOURCE_ID, featureCollection);
+        loadedStyle.removeSource(GEOJSON_SOURCE_ID);
         loadedStyle.addSource(source);
     }
 
@@ -182,6 +186,14 @@ public class MainActivityMapFeatures implements
                                 "Clicked " + featureList.get(i).getStringProperty("name"),
                                 Toast.LENGTH_SHORT
                         ).show();
+
+                        Intent switchToMainActivity = new Intent(mainActivity, PointOfInterest.class);
+                        switchToMainActivity.putExtra("currentLong", mainActivity.lastLocation.getLongitude());
+                        switchToMainActivity.putExtra("currentLatt", mainActivity.lastLocation.getLatitude());
+                        switchToMainActivity.putExtra("destLong", ((Point) featureList.get(i).geometry()).longitude());
+                        switchToMainActivity.putExtra("destLatt", ((Point) featureList.get(i).geometry()).latitude());
+                        switchToMainActivity.putExtra("feature", featureList.get(i).toJson());
+                        mainActivity.startActivity(switchToMainActivity);
                         if (featureSelectStatus(i)) {
                             setFeatureSelectState(featureList.get(i), false);
                         } else {

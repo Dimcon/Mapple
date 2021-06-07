@@ -2,7 +2,6 @@ package com.opsc7311.mapple.main.mymapbox;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
-import android.location.Location;
 import android.view.animation.BounceInterpolator;
 import android.widget.Toast;
 
@@ -29,12 +28,12 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public class MainActivityMapbox implements
+public class MainMapbox implements
         PermissionsListener, OnMapReadyCallback {
 
     private LocationEngine locationEngine;
     public MapboxMap mapboxMap;
-    private MainActivityLocationCallback myLocationCallback;
+    private MapLocationCallback myLocationCallback;
     private MapView mapView;
     private MainActivity mainActivity;
     public PermissionsManager permissionsManager;
@@ -43,8 +42,8 @@ public class MainActivityMapbox implements
     private long DEFAULT_INTERVAL_IN_MILLISECONDS = 1000L;
     private long DEFAULT_MAX_WAIT_TIME = DEFAULT_INTERVAL_IN_MILLISECONDS * 5;
 
-    public MainActivityMapbox(MapView mapView, MainActivity mainActivity) {
-        this.myLocationCallback = new MainActivityLocationCallback(mainActivity);
+    public MainMapbox(MapView mapView, MainActivity mainActivity) {
+        this.myLocationCallback = new MapLocationCallback(mainActivity);
         this.mapView = mapView;
         this.mainActivity = mainActivity;
         mapView.getMapAsync(this);
@@ -105,6 +104,7 @@ public class MainActivityMapbox implements
             initLocationEngine();
         } else {
             permissionsManager = new PermissionsManager(this);
+            permissionsManager.requestLocationPermissions(mainActivity);
             permissionsManager.requestLocationPermissions(mainActivity);
         }
     }

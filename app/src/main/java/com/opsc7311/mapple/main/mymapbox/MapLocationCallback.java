@@ -8,21 +8,16 @@ import androidx.annotation.NonNull;
 
 import com.mapbox.android.core.location.LocationEngineCallback;
 import com.mapbox.android.core.location.LocationEngineResult;
-import com.mapbox.mapboxsdk.location.LocationComponent;
-import com.mapbox.mapboxsdk.location.LocationComponentActivationOptions;
-import com.mapbox.mapboxsdk.location.modes.CameraMode;
-import com.mapbox.mapboxsdk.location.modes.RenderMode;
-import com.mapbox.mapboxsdk.maps.Style;
-import com.opsc7311.mapple.R;
 import com.opsc7311.mapple.main.MainActivity;
 
 import java.lang.ref.WeakReference;
 
-public class MainActivityLocationCallback  implements LocationEngineCallback<LocationEngineResult> {
+public class MapLocationCallback implements LocationEngineCallback<LocationEngineResult> {
 
     private final WeakReference<MainActivity> activityWeakReference;
+    private boolean didthething = false;
 
-    MainActivityLocationCallback(MainActivity activity) {
+    MapLocationCallback(MainActivity activity) {
         this.activityWeakReference = new WeakReference<>(activity);
     }
 
@@ -42,8 +37,10 @@ public class MainActivityLocationCallback  implements LocationEngineCallback<Loc
                 return;
             }
             activity.lastLocation = location;
-
-            new MyLoadGeoJsonDataTask.LoadGeoJsonDataTask(activity.mymapFeatures).execute();
+            if (!didthething) {
+                new LoadGeoJsonDataTask(activity.mymapFeatures).execute();
+                didthething = true;
+            }
 
 //            Toast.makeText(activity, String.format(activity.getString(R.string.new_location),
 //                    String.valueOf(result.getLastLocation().getLatitude()),

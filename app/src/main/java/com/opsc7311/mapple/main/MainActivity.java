@@ -12,8 +12,8 @@ import com.mapbox.mapboxsdk.maps.MapboxMap;
 // Classes needed to add the location engine
 // Classes needed to add the location component
 import com.opsc7311.mapple.R;
-import com.opsc7311.mapple.main.mymapbox.MainActivityMapFeatures;
-import com.opsc7311.mapple.main.mymapbox.MainActivityMapbox;
+import com.opsc7311.mapple.main.mymapbox.MapFeatures;
+import com.opsc7311.mapple.main.mymapbox.MainMapbox;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -23,8 +23,8 @@ import org.jetbrains.annotations.NotNull;
 public class MainActivity extends AppCompatActivity {
     public MapboxMap mapboxMap;
     private MapView mapView;
-    private MainActivityMapbox myMapBox;
-    public MainActivityMapFeatures mymapFeatures;
+    private MainMapbox myMapBox;
+    public MapFeatures mymapFeatures;
 
     public Location lastLocation;
 
@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
         mapView = findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
-        mymapFeatures = new MainActivityMapFeatures(mapView, this);
-        myMapBox = new MainActivityMapbox(mapView, this);
+        mymapFeatures = new MapFeatures(mapView, this);
+        myMapBox = new MainMapbox(mapView, this);
     }
 
 

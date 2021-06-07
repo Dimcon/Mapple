@@ -25,86 +25,43 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ListView
-        android:id="@+id/measurement"
-        android:layout_width="295dp"
-        android:layout_height="76dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginRight="88dp"
-        android:layout_marginBottom="504dp"
-        android:longClickable="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:listfooter="kilometers"
-        tools:listheader="miles"
-        tools:listitem="@android:layout/select_dialog_multichoice" />
-
     <TextView
         android:id="@+id/measurements"
         android:layout_width="141dp"
         android:layout_height="22dp"
         android:layout_marginStart="27dp"
-        android:layout_marginLeft="27dp"
         android:layout_marginEnd="239dp"
-        android:layout_marginRight="239dp"
-        android:layout_marginBottom="20dp"
         android:text="Meausrements"
-        app:layout_constraintBottom_toTopOf="@+id/measurement"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="72dp" />
 
     <TextView
         android:id="@+id/plt"
         android:layout_width="186dp"
         android:layout_height="31dp"
         android:layout_marginStart="29dp"
-        android:layout_marginLeft="29dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="196dp"
-        android:layout_marginRight="196dp"
-        android:layout_marginBottom="441dp"
-        android:text="Perfered Landmark Type"
+        android:layout_marginBottom="480dp"
+        android:text="Preferred Landmark Type"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/measurement" />
-
-    <ListView
-        android:id="@+id/pltlist"
-        android:layout_width="281dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginRight="88dp"
-        android:layout_marginBottom="339dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plt"
-        app:layout_constraintVertical_bias="1.0"
-        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Switch
         android:id="@+id/location"
         android:layout_width="282dp"
         android:layout_height="58dp"
         android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginTop="39dp"
         android:layout_marginEnd="86dp"
-        android:layout_marginRight="86dp"
-        android:layout_marginBottom="242dp"
+        android:layout_marginBottom="236dp"
         android:text="Allow other users to see your location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pltlist"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/savesets"
@@ -118,6 +75,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/location" />
+
+    <CheckBox
+        android:id="@+id/bxMetric"
+        android:layout_width="128dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="140dp"
+        android:text="Metric"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbxImperial"
+        android:layout_width="128dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:text="Imperial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

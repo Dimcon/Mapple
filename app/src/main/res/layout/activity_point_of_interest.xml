@@ -6,83 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".PointOfInterest">
 
-    <TextView
-        android:id="@+id/poi"
-        android:layout_width="208dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="228dp"
-        android:layout_marginRight="228dp"
-        android:layout_marginBottom="647dp"
-        android:fontFamily="sans-serif-black"
-        android:text="POI Detail View"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:dividerPadding="10dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp">
 
-    <Switch
-        android:id="@+id/favourites"
-        android:layout_width="317dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:text="Favourites"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="180dp" />
+        <TextView
+            android:id="@+id/poi_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
-    <TextView
-        android:id="@+id/comments"
-        android:layout_width="318dp"
-        android:layout_height="106dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="77dp"
-        android:layout_marginRight="77dp"
-        android:layout_marginBottom="288dp"
-        android:text="Comments"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/favourites"
-        app:layout_constraintVertical_bias="0.465" />
+        <TextView
+            android:id="@+id/poi_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
-    <SearchView
-        android:id="@+id/navigate"
-        android:layout_width="318dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="39dp"
-        android:layout_marginRight="39dp"
-        android:layout_marginBottom="65dp"
-        app:layout_constraintBottom_toTopOf="@+id/favourites"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/poi"
-        app:layout_constraintVertical_bias="0.0" />
+        <Switch
+            android:id="@+id/swi_favourite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Favourite" />
 
-    <Button
-        android:id="@+id/savepoi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="131dp"
-        android:layout_marginLeft="131dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="192dp"
-        android:layout_marginRight="192dp"
-        android:layout_marginBottom="146dp"
-        android:text="Save"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/comments" />
+        <TextView
+            android:id="@+id/txt_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <Button
+            android:id="@+id/navigate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navigate Here" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
