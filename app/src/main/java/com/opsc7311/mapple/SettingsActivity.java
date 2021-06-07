@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.opsc7311.mapple.auth.ui.login.LoginViewModel;
 
 public class SettingsActivity extends AppCompatActivity {
     private TextView Settings;
@@ -23,6 +24,7 @@ public class SettingsActivity extends AppCompatActivity {
     private ListView Pltlist;
     private Switch Location;
     private Button Save;
+    public LoginViewModel LVM;
 
     ListView simpleList;
     String countryList1[] = {"Kilometers", "Miles"};
@@ -43,6 +45,8 @@ public class SettingsActivity extends AppCompatActivity {
         Pltlist = (ListView) findViewById(R.id.pltlist);
         Location = (Switch) findViewById(R.id.location);
         Save = (Button) findViewById(R.id.savesets);
+
+        LVM = getIntent().getParcelableExtra("user");
 
         simpleList = (ListView)findViewById(R.id.measurement);
         ArrayAdapter<String> arrayAdapter1 = new ArrayAdapter<String>(this, R.layout.activity_settings, R.id.measurements, countryList2);

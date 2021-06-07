@@ -48,7 +48,7 @@
         android:layout_marginEnd="239dp"
         android:layout_marginRight="239dp"
         android:layout_marginBottom="20dp"
-        android:text="Meausrements"
+        android:text="@string/meausrements"
         app:layout_constraintBottom_toTopOf="@+id/measurement"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -64,7 +64,7 @@
         android:layout_marginEnd="196dp"
         android:layout_marginRight="196dp"
         android:layout_marginBottom="441dp"
-        android:text="Perfered Landmark Type"
+        android:text="@string/perfered_landmark_type"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,13 +98,14 @@
         android:layout_marginEnd="86dp"
         android:layout_marginRight="86dp"
         android:layout_marginBottom="242dp"
-        android:text="Allow other users to see your location"
+        android:text="@string/allow_other_users_to_see_your_location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pltlist"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <Button
         android:id="@+id/savesets"
@@ -114,7 +115,7 @@
         android:layout_marginLeft="131dp"
         android:layout_marginTop="57dp"
         android:layout_marginBottom="136dp"
-        android:text="Save"
+        android:text="@string/save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/location" />

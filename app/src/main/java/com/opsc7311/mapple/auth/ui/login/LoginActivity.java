@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Parcelable;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
@@ -150,6 +151,7 @@ public class LoginActivity extends AppCompatActivity {
         String welcome = getString(R.string.welcome) + " " + model.getDisplayName();
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
         Intent switchToMainActivity = new Intent(this, MainActivity.class);
+        switchToMainActivity.putExtra("user" , (Parcelable) loginViewModel);
         startActivity(switchToMainActivity);
     }
 
