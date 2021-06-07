@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.opsc7311.mapple"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -63,5 +63,10 @@ dependencies {
 
     //Mapbox Dependencies
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.1'
+
+    // Mapbox Navigation
+    implementation "com.mapbox.navigation:ui:1.5.1"
+    implementation 'com.mapbox.mapboxsdk:mapbox-sdk-turf:5.8.0'
+
 
 }

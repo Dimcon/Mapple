@@ -4,7 +4,6 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -20,7 +19,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.opsc7311.mapple.MainActivity;
+import com.opsc7311.mapple.main.MainActivity;
 import com.opsc7311.mapple.R;
 import com.opsc7311.mapple.auth.data.LoginDataSource;
 import com.opsc7311.mapple.auth.data.LoginRepository;
