@@ -60,6 +60,8 @@ public class PointOfInterest extends AppCompatActivity {
             }
         });
 
+
+        //Code from https://developer.android.com/guide/topics/search/search-dialog#java
         Intent intent = getIntent();
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             String query = intent.getStringExtra(SearchManager.QUERY);

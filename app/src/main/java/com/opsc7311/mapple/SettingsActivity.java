@@ -44,6 +44,8 @@ private Button Save;
         Location = (Switch) findViewById(R.id.location);
         Save = (Button) findViewById(R.id.savesets);
 
+
+        //Code from https://developer.android.com/reference/android/widget/ListView
         simpleList = (ListView)findViewById(R.id.measurement);
         ArrayAdapter<String> arrayAdapter1 = new ArrayAdapter<String>(this, R.layout.activity_settings, R.id.measurements, countryList2);
         simpleList.setAdapter(arrayAdapter1);

@@ -30,6 +30,9 @@ import com.opsc7311.mapple.databinding.ActivityRegisterBinding;
 public class RegisterActivity extends AppCompatActivity {
 
     private LoginViewModel registerViewModel;
+    //Following code was taken from:
+    //Author: Vogella
+    //Link: https://www.vogella.com/tutorials/AndroidDatabinding/article.html
     private ActivityRegisterBinding binding;
 
     @Override

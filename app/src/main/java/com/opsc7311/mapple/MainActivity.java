@@ -66,6 +66,9 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public void onMapReady(@NonNull final MapboxMap mapboxMap) {
+        //Following code was taken from:
+        //Author: Mapbox Doc
+        //Link: https://docs.mapbox.com/api/maps/styles/
         this.mapboxMap = mapboxMap;
 
         mapboxMap.setStyle(Style.MAPBOX_STREETS,

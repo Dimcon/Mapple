@@ -58,6 +58,10 @@ public class LoginRepository  {
         // @see https://developer.android.com/training/articles/keystore
     }
 
+
+    //The following code was taken from:
+    //Author: raywenderlich/Prateek Sharma
+    //link: https://www.raywenderlich.com/10391019-livedata-tutorial-for-android-deep-dive
     public LiveData<Result<LoggedInUser>> login(String username, String password) {
         // handle login
         LiveData<Result<LoggedInUser>> result = dataSource.login(username, password);

@@ -98,6 +98,10 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+
+        //The following code was taken from:
+        //Author: stackflow/mariotomo
+        //Link: https://stackoverflow.com/questions/20824634/android-on-text-change-listener
         TextWatcher afterTextChangedListener = new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
