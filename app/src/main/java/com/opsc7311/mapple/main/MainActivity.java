@@ -1,17 +1,27 @@
 package com.opsc7311.mapple.main;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
+import android.os.Parcelable;
+import android.view.View;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 // Classes needed to initialize the map
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.mapbox.mapboxsdk.Mapbox;
 import com.mapbox.mapboxsdk.maps.MapView;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
 // Classes needed to handle location permissions
 // Classes needed to add the location engine
 // Classes needed to add the location component
+import com.opsc7311.mapple.PointOfInterest;
 import com.opsc7311.mapple.R;
+import com.opsc7311.mapple.SettingsActivity;
+import com.opsc7311.mapple.auth.ui.login.LoginActivity;
+import com.opsc7311.mapple.auth.ui.login.LoginViewModel;
 import com.opsc7311.mapple.main.mymapbox.MainActivityMapFeatures;
 import com.opsc7311.mapple.main.mymapbox.MainActivityMapbox;
 
@@ -21,12 +31,17 @@ import org.jetbrains.annotations.NotNull;
  * Use the Mapbox Core Library to listen to device location updates
  */
 public class MainActivity extends AppCompatActivity {
-    public MapboxMap mapboxMap;
+
     private MapView mapView;
     private MainActivityMapbox myMapBox;
     public MainActivityMapFeatures mymapFeatures;
 
     public Location lastLocation;
+    public FloatingActionButton SettingsButton;
+    public FloatingActionButton PoiButton;
+    public FloatingActionButton BacktomeButton;
+    public FloatingActionButton LogoutButton;
+    public LoginViewModel LVM;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,10 +54,41 @@ public class MainActivity extends AppCompatActivity {
         // Needs to be called after the access token is configured.
         setContentView(R.layout.activity_main);
 
+        SettingsButton = findViewById(R.id.btnSetting);
+        PoiButton = findViewById(R.id.btnSearch);
+        BacktomeButton =findViewById(R.id.btnCurrentLocation);
+        LogoutButton = findViewById(R.id.btnLogout);
         mapView = findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
         mymapFeatures = new MainActivityMapFeatures(mapView, this);
         myMapBox = new MainActivityMapbox(mapView, this);
+
+        LVM = getIntent().getParcelableExtra("user");
+
+        SettingsButton.setOnClickListener(v -> {
+            Intent switchToSettingsActivity = new Intent(MainActivity.this , SettingsActivity.class);
+            switchToSettingsActivity.putExtra("user" ,  LVM);
+            startActivity(switchToSettingsActivity);
+        });
+        PoiButton.setOnClickListener(v -> {
+            Intent switchToPoiActivity = new Intent(MainActivity.this , PointOfInterest.class);
+            switchToPoiActivity.putExtra("user" ,  LVM);
+            startActivity(switchToPoiActivity);
+        });
+
+        BacktomeButton.setOnClickListener(v -> {
+            Intent switchToPoiActivity = new Intent(MainActivity.this , MainActivity.class);
+            switchToPoiActivity.putExtra("user" ,  LVM);
+            startActivity(switchToPoiActivity);
+        });
+        LogoutButton.setOnClickListener(v -> {
+
+            Intent switchToPoiActivity = new Intent(MainActivity.this , LoginActivity.class);
+            startActivity(switchToPoiActivity);
+        });
+
+
+
     }
 
 
