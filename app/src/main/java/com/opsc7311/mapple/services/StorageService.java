@@ -89,6 +89,10 @@ public class StorageService {
         return currentUser;
     }
 
+
+    //The following code was taken from:
+    //Author: Androiodhive
+    //Link: https://www.androidhive.info/2016/10/android-working-with-firebase-realtime-database/
     public static DatabaseReference getUserReference() {
         return StorageService.getFirestore().getReference("user").child(fbUser.getUid());
     }

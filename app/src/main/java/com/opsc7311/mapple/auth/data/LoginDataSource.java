@@ -23,6 +23,9 @@ import java.io.IOException;
  */
 public class LoginDataSource {
 
+    //The following code was taken from:
+    //Author: Developers
+    //Link: https://developer.android.com/topic/libraries/architecture/livedata
     MutableLiveData<Result<LoggedInUser>> loginResult = new MutableLiveData<>();
     MutableLiveData<Result<LoggedInUser>> registerResult = new MutableLiveData<>();
     MutableLiveData<Result<LoggedInUser>> logoutResult = new MutableLiveData<>();

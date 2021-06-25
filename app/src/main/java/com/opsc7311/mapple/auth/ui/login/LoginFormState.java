@@ -5,6 +5,10 @@ import androidx.annotation.Nullable;
 /**
  * Data validation state of the login form.
  */
+
+//Following code was taken from:
+//Author: Git/marcamsn
+//Link: https://github.com/dhis2/dhis2-android-skeleton-app/blob/master/app/src/main/java/com/example/android/androidskeletonapp/ui/login/LoginFormState.java
 class LoginFormState {
     @Nullable
     private Integer usernameError;
