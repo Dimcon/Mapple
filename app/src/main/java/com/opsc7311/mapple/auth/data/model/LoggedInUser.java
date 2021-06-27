@@ -2,13 +2,22 @@ package com.opsc7311.mapple.auth.data.model;
 
 import android.os.Build;
 import android.util.Log;
+import android.webkit.ValueCallback;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.gson.Gson;
+
+import org.jetbrains.annotations.NotNull;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -26,34 +35,27 @@ public class LoggedInUser implements Serializable {
 
     private String userId;
     private String displayName;
-    private FirebaseUser fbUser;
+    static private FirebaseUser fbUser;
     public boolean isMetric = false;
 
-    public static LoggedInUser getFromString(String s, FirebaseUser fbAuth) {
-        LoggedInUser tmp;
+    public static LoggedInUser getFromString(String s, FirebaseUser fbUser) {
+        Gson gson = new Gson();
         try {
-            InputStream targetStream = new ByteArrayInputStream(s.getBytes());
-            ObjectInputStream in = new ObjectInputStream(targetStream);
-            tmp = (LoggedInUser) in.readObject();
-            in.close();
-            return tmp;
+            return gson.fromJson(s, LoggedInUser.class);
         } catch (Exception e) {
-            System.out.println("You f'ed up dude...");
-            return new LoggedInUser(fbAuth);
+            System.out.println("Something went wrong during deserialization");
+            return new LoggedInUser(fbUser);
         }
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.O)
     public String getString() {
         try {
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            ObjectOutputStream oos = new ObjectOutputStream( baos );
-            oos.writeObject( this );
-            oos.close();
-            return Base64.getEncoder().encodeToString(baos.toByteArray());
+            Gson gson = new Gson();
+            String json = gson.toJson(this);
+            return json;
         } catch (Exception e) {
+            return null;
         }
-        return null;
     }
 
 
@@ -73,16 +75,53 @@ public class LoggedInUser implements Serializable {
         return FirebaseDatabase.getInstance().getReference("user").child(fbUser.getUid());
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.O)
+    public void afterLogin(ValueCallback<LoggedInUser> doOnDone) {
+        DatabaseReference userRef = getUserRef();
+        userRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
+                if (snapshot.hasChild("settingsobj")){
+                    String settings = snapshot.child("settingsobj").getValue(String.class);
+                    LoggedInUser newUser = LoggedInUser.getFromString(
+                            settings,
+                            LoggedInUser.this.fbUser
+                    );
+                    doOnDone.onReceiveValue(newUser);
+                } else {
+                    LoggedInUser newUser = new LoggedInUser(
+                            LoggedInUser.this.fbUser
+                    );
+                    doOnDone.onReceiveValue(newUser);
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull @NotNull DatabaseError error) {
+
+            }
+        });
+//        save();
+    }
+
     public void save() {
-        FirebaseDatabase.getInstance().getReference("user").child(fbUser.getUid())
-                .child("settingsobj").setValue(
-            this.getString()
-        );
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            FirebaseDatabase.getInstance().getReference("user")
+                    .setValue(fbUser.getUid());
+            FirebaseDatabase.getInstance().getReference("user")
+                    .child(fbUser.getUid())
+                    .setValue("settingsobj");
+            String json = LoggedInUser.this.getString();
+            FirebaseDatabase.getInstance().getReference("user")
+                .child(fbUser.getUid())
+                .child("settingsobj")
+                .setValue(
+                        json
+                );
+        }
     }
 
     public boolean isMetric() {
 //        getUserRef().child("settings").child("isFreedomUnits")
-        return true;
+        return this.isMetric;
     }
 }

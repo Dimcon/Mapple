@@ -8,6 +8,7 @@ import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.ValueCallback;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SearchView;
@@ -49,8 +50,6 @@ public class PointOfInterest extends AppCompatActivity {
         Bundle configs = getIntent().getExtras();
 
         Feature feature = Feature.fromJson((String)configs.get("feature"));
-        LoggedInUser user = LoginRepository.getInstance().isLoggedIn();
-
 
         double currentLong = configs.getDouble("currentLong");
         double currentLatt = configs.getDouble("currentLatt");
@@ -80,22 +79,31 @@ public class PointOfInterest extends AppCompatActivity {
 
         poi_heading.setText(feature.getStringProperty("name"));
         poi_body.setText(feature.getStringProperty("category"));
-
-
-        swi_favourite.setOnClickListener(new View.OnClickListener() {
+        LoginRepository.getInstance().isLoggedIn(new ValueCallback<LoggedInUser>() {
             @Override
-            public void onClick(View View) {
-                if (swi_favourite.isChecked()) {
-                    user.getUserRef()
-                            .child("settings").child("favourites")
-                            .setValue(feature.getStringProperty("name"));
-                } else {
-                    user.getUserRef()
-                            .child("settings").child("favourites")
-                            .child(feature.getStringProperty("name"))
-                            .removeValue();
-                }
+            public void onReceiveValue(LoggedInUser user) {
+                swi_favourite.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View View) {
+                        if (swi_favourite.isChecked()) {
+                            user.getUserRef()
+                                    .child("settings").child("favourites")
+                                    .setValue(feature.getStringProperty("name"));
+                        } else {
+                            user.getUserRef()
+                                    .child("settings").child("favourites")
+                                    .child(feature.getStringProperty("name"))
+                                    .removeValue();
+                        }
+                    }
+                });
             }
         });
+
+
+
+
+
+
     }
 }

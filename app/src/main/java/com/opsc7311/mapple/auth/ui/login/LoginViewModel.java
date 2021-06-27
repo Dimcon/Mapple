@@ -6,7 +6,9 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
+import android.webkit.ValueCallback;
 
+import com.google.firebase.database.ValueEventListener;
 import com.opsc7311.mapple.auth.data.LoginRepository;
 import com.opsc7311.mapple.auth.data.Result;
 import com.opsc7311.mapple.auth.data.model.LoggedInUser;
@@ -30,8 +32,8 @@ public class LoginViewModel extends ViewModel {
         return loginResult;
     }
 
-    public LoggedInUser isLoggedIn() {
-        return loginRepository.isLoggedIn();
+    public boolean isLoggedIn(ValueCallback<LoggedInUser> doOnDone) {
+        return loginRepository.isLoggedIn(doOnDone);
     }
 
     public void login(String username, String password) {

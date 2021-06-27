@@ -68,5 +68,6 @@ dependencies {
     implementation "com.mapbox.navigation:ui:1.5.1"
     implementation 'com.mapbox.mapboxsdk:mapbox-sdk-turf:5.8.0'
 
+    implementation 'com.google.code.gson:gson:2.8.7'
 
 }

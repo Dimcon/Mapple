@@ -39,6 +39,7 @@ public class NavigationActivity
     private DirectionsRoute route ;
     private NavigationView navigationView;
     private String MAPBOX_TOKEN = "sk.eyJ1IjoibWFwcGxlMjAyMSIsImEiOiJja3Bqc3NodW8wODJ5MnJvMTV1NGw0ajgzIn0.CwiWRG0yleHOh5eCSNmEWw";
+    private String MAPBOX_TOKEN2 = "sk.eyJ1IjoiZGFpbW9uc2V3ZWxsIiwiYSI6ImNrcWZtMWlyeDFmOGMycG5tYzhqZnVtZDcifQ.rOdsrIPk1mFEQUD2_nn6-w";
     Bundle activityExtras;
 
     @Override
@@ -169,11 +170,11 @@ public class NavigationActivity
                 activityExtras.getDouble("destLatt")
         ));
         RouteOptions options = RouteOptions.builder()
-                .user(DirectionsCriteria.PROFILE_DRIVING)
+                .user("mapple")
                 .baseUrl("https://api.mapbox.com/directions/v5/")
                 .profile(DirectionsCriteria.PROFILE_DRIVING)
-                .requestUuid("sdfyugafiegywafuykgke")
-                .accessToken(MAPBOX_TOKEN)
+                .requestUuid("sdfyugafiegywafuykgke21")
+                .accessToken(MAPBOX_TOKEN2)
                 .coordinates(points)
                 .build();
         mapboxNavigation.requestRoutes(options, new RoutesRequestCallback() {
@@ -193,7 +194,7 @@ public class NavigationActivity
 
             @Override
             public void onRoutesRequestFailure(@NotNull Throwable throwable, @NotNull RouteOptions routeOptions) {
-                System.out.println();
+                System.out.println(throwable.getMessage());
             }
 
             @Override

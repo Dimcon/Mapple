@@ -7,6 +7,7 @@ import android.annotation.SuppressLint;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.ValueCallback;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -36,41 +37,29 @@ public class SettingsActivity extends AppCompatActivity {
     FirebaseDatabase rootNode;
     DatabaseReference reference;
 
-
-    LoggedInUser user;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        user = LoginRepository.getInstance().isLoggedIn();
+        LoginRepository.getInstance().isLoggedIn(user -> {
+            CheckBox imperial = findViewById(R.id.cbxImperial);
+            CheckBox metric = findViewById(R.id.cbxMetric);
 
-        CheckBox imperial = findViewById(R.id.cbxImperial);
-        CheckBox metric = findViewById(R.id.cbxMetric);
+            imperial.setChecked(!user.isMetric());
+            metric.setChecked(user.isMetric());
 
-        imperial.setChecked(!user.isMetric());
-        metric.setChecked(user.isMetric());
-
-        imperial.setOnClickListener(new View.OnClickListener() {
-            @RequiresApi(api = Build.VERSION_CODES.O)
-            @Override
-            public void onClick(View v) {
-                metric.setChecked(!imperial.isChecked());
-                user.isMetric = !imperial.isChecked();
+            imperial.setOnClickListener(v -> {
+                metric.setChecked(false);
+                user.isMetric = false;
                 user.save();
-            }
-        });
+            });
 
-        metric.setOnClickListener(new View.OnClickListener() {
-            @RequiresApi(api = Build.VERSION_CODES.O)
-            @Override
-            public void onClick(View v) {
-                imperial.setChecked(!metric.isChecked());
-                user.isMetric = !metric.isChecked();
+            metric.setOnClickListener(v -> {
+                imperial.setChecked(false);
+                user.isMetric = true;
                 user.save();
-            }
+            });
         });
-
     }
 }

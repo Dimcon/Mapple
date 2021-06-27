@@ -1,5 +1,7 @@
 package com.opsc7311.mapple.auth.data;
 
+import android.webkit.ValueCallback;
+
 import androidx.annotation.NonNull;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleOwner;
@@ -21,6 +23,8 @@ public class LoginRepository  {
     private static volatile LoginRepository instance;
 
     private LoginDataSource dataSource;
+
+    private LoggedInUser user;
 
     // If user credentials will be cached in local storage, it is recommended it be encrypted
     // @see https://developer.android.com/training/articles/keystore
@@ -45,13 +49,22 @@ public class LoginRepository  {
         return instance;
     }
 
-    public LoggedInUser isLoggedIn() {
+    public boolean isLoggedIn(ValueCallback<LoggedInUser> doOnDone) {
+        if (user != null) {
+            doOnDone.onReceiveValue(user);
+            return true;
+        }
         FirebaseUser userT = dataSource.isLoggedIn();
         if (userT != null) {
-            MyData.myUser = new LoggedInUser(userT);
-            return MyData.myUser;
+            LoggedInUser tmp = new LoggedInUser(userT);
+            tmp.afterLogin(value -> {
+                MyData.myUser = value;
+                user = value;
+                doOnDone.onReceiveValue(value);
+            });
+            return true;
         }
-        return null;
+        return false;
     }
 
     public void logout() {
@@ -73,12 +86,9 @@ public class LoginRepository  {
     public LiveData<Result<LoggedInUser>> login(String username, String password) {
         // handle login
         LiveData<Result<LoggedInUser>> result = dataSource.login(username, password);
-        result.observeForever(new Observer<Result<LoggedInUser>>() {
-            @Override
-            public void onChanged(Result<LoggedInUser> loggedInUserResult) {
-                if (loggedInUserResult instanceof Result.Success) {
-                    setLoggedInUser(((Result.Success<LoggedInUser>) loggedInUserResult).getData());
-                }
+        result.observeForever(loggedInUserResult -> {
+            if (loggedInUserResult instanceof Result.Success) {
+                setLoggedInUser(((Result.Success<LoggedInUser>) loggedInUserResult).getData());
             }
         });
         return result;
@@ -87,12 +97,9 @@ public class LoginRepository  {
     public LiveData<Result<LoggedInUser>> register(String username, String password) {
         // handle login
         LiveData<Result<LoggedInUser>> result = dataSource.register(username, password);
-        result.observeForever(new Observer<Result<LoggedInUser>>() {
-            @Override
-            public void onChanged(Result<LoggedInUser> loggedInUserResult) {
-                if (loggedInUserResult instanceof Result.Success) {
-                    setLoggedInUser(((Result.Success<LoggedInUser>) loggedInUserResult).getData());
-                }
+        result.observeForever(loggedInUserResult -> {
+            if (loggedInUserResult instanceof Result.Success) {
+                setLoggedInUser(((Result.Success<LoggedInUser>) loggedInUserResult).getData());
             }
         });
         return result;

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
+import android.webkit.ValueCallback;
+
 import androidx.annotation.NonNull;
 // Classes needed to initialize the map
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -32,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private MapView mapView;
     private MainMapbox myMapBox;
     public MapFeatures mymapFeatures;
-    LoggedInUser user;
+
     public Location lastLocation;
     public FloatingActionButton SettingsButton;
     public FloatingActionButton PoiButton;
@@ -46,7 +48,12 @@ public class MainActivity extends AppCompatActivity {
 
         // Mapbox access token is configured here. This needs to be called either in your application
         // object or in the same activity which contains the mapview.
-        user = LoginRepository.getInstance().isLoggedIn();
+        LoginRepository.getInstance().isLoggedIn(new ValueCallback<LoggedInUser>() {
+            @Override
+            public void onReceiveValue(LoggedInUser value) {
+
+            }
+        });
         Mapbox.getInstance(this, getString(R.string.mapbox_access_token));
 
         // Needs to be called after the access token is configured.
@@ -75,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(switchToPoiActivity);
         });
         LogoutButton.setOnClickListener(v -> {
-
+            LoginRepository.getInstance().logout();
             Intent switchToPoiActivity = new Intent(MainActivity.this , LoginActivity.class);
             startActivity(switchToPoiActivity);
         });
