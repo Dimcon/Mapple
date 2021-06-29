@@ -26,7 +26,9 @@ import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Base64;
+import java.util.List;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository
@@ -37,6 +39,10 @@ public class LoggedInUser implements Serializable {
     private String displayName;
     static private FirebaseUser fbUser;
     public boolean isMetric = false;
+    public List<String> favourites;
+    public List<String> filtered;
+
+
 
     public static LoggedInUser getFromString(String s, FirebaseUser fbUser) {
         Gson gson = new Gson();
@@ -60,6 +66,7 @@ public class LoggedInUser implements Serializable {
 
 
     public LoggedInUser(FirebaseUser fbUser) {
+        this.favourites = new ArrayList<>();
         this.fbUser = fbUser;
     }
 

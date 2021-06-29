@@ -24,9 +24,12 @@ import com.mapbox.navigation.ui.listeners.NavigationListener;
 import com.mapbox.navigation.ui.map.NavigationMapboxMap;
 import com.mapbox.navigation.ui.route.NavigationMapRoute;
 import com.opsc7311.mapple.R;
+import com.opsc7311.mapple.auth.data.LoginRepository;
+import com.opsc7311.mapple.auth.data.model.LoggedInUser;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -126,20 +129,25 @@ public class NavigationActivity
                 getDirectionsRoute();
                 return;
             }
-
-            NavigationOptions navopts2 = new NavigationOptions.Builder(NavigationActivity.this)
-                    .distanceFormatter(v -> {
-//                        return new SpannableString(((int)(((double)v) / 1000)) + " MILES");
-                        return new SpannableString(((int)(((double)v) / 1.609d / 1000)) + " KM");
-                    })
-                    .build();
-            NavigationViewOptions navViewOptions = NavigationViewOptions.builder(NavigationActivity.this)
-                    .navigationOptions(navopts2)
-                    .navigationListener(NavigationActivity.this)
-                    .directionsRoute(tmpRoute)
-                    .shouldSimulateRoute(false)
-                    .build();
-            navigationView.startNavigation(navViewOptions);
+            LoginRepository.getInstance().isLoggedIn(user -> {
+                NavigationOptions navopts2 = new NavigationOptions.Builder(NavigationActivity.this)
+                        .distanceFormatter(v -> {
+                            DecimalFormat df = new DecimalFormat("#.##");
+                            if (user.isMetric) {
+                                return new SpannableString(df.format((((double)v) / 1.609d / 1000)) + "km");
+                            } else {
+                                return new SpannableString(df.format((((double)v) / 1000)) + "mi");
+                            }
+                        })
+                        .build();
+                NavigationViewOptions navViewOptions = NavigationViewOptions.builder(NavigationActivity.this)
+                        .navigationOptions(navopts2)
+                        .navigationListener(NavigationActivity.this)
+                        .directionsRoute(tmpRoute)
+                        .shouldSimulateRoute(false)
+                        .build();
+                navigationView.startNavigation(navViewOptions);
+            });
         }
     }
 

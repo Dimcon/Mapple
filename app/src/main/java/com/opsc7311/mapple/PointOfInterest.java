@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.ValueCallback;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.SearchView;
 import android.widget.Switch;
@@ -31,15 +33,6 @@ import org.w3c.dom.Text;
 
 public class PointOfInterest extends AppCompatActivity {
     //variables
-    private TextView POI;
-    private SearchView Navigate;
-    private Switch Favourites;
-    private EditText Comments;
-    private Button Save;
-
-
-    FirebaseDatabase rootNode;
-    DatabaseReference reference;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -79,24 +72,21 @@ public class PointOfInterest extends AppCompatActivity {
 
         poi_heading.setText(feature.getStringProperty("name"));
         poi_body.setText(feature.getStringProperty("category"));
-        LoginRepository.getInstance().isLoggedIn(new ValueCallback<LoggedInUser>() {
-            @Override
-            public void onReceiveValue(LoggedInUser user) {
-                swi_favourite.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View View) {
-                        if (swi_favourite.isChecked()) {
-                            user.getUserRef()
-                                    .child("settings").child("favourites")
-                                    .setValue(feature.getStringProperty("name"));
-                        } else {
-                            user.getUserRef()
-                                    .child("settings").child("favourites")
-                                    .child(feature.getStringProperty("name"))
-                                    .removeValue();
-                        }
+
+        LoginRepository.getInstance().isLoggedIn(user -> {
+            swi_favourite.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                if (isChecked) {
+                    if (!user.favourites.contains((feature.getStringProperty("name")))) {
+                        user.favourites.add(feature.getStringProperty("name"));
+                        user.save();
                     }
-                });
+                } else {
+                    user.favourites.remove(feature.getStringProperty("name"));
+                    user.save();
+                }
+            });
+            if (user.favourites.contains((feature.getStringProperty("name")))) {
+                swi_favourite.setChecked(true);
             }
         });
 
