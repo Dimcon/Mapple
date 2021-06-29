@@ -8,11 +8,14 @@ import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.ListView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -26,11 +29,17 @@ import com.opsc7311.mapple.main.NavigationActivity;
 import org.jetbrains.annotations.NotNull;
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
+
+import static com.google.api.ResourceProto.resource;
+
 
 public class PointOfInterest extends AppCompatActivity {
     //variables
     private TextView POI;
     private SearchView Navigate;
+    public String Landmark;
+    public String SelectedFilter = "all";
     private Switch Favourites;
     private EditText Comments;
     private Button Save;
@@ -38,6 +47,7 @@ public class PointOfInterest extends AppCompatActivity {
 
     FirebaseDatabase rootNode;
     DatabaseReference reference;
+    private String status;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -97,4 +107,42 @@ public class PointOfInterest extends AppCompatActivity {
             }
         });
     }
+    
+    private void initSearchWidgets(){
+        SearchView searchview = (SearchView) findViewById(R.id.navigationView);
+        
+        Navigate.setOnQueryTextListener(new SearchView.OnQueryTextListener(){
+            @Override
+            public boolean onQueryTextSubmit(String s){
+                return false;
+            }
+            @Override
+            public boolean onQueryTextChange(String s){
+                ArrayList<String> filteredLandmarks = new ArrayList<String>();
+                for(String landmark : filteredLandmarks){
+                    if(landmark.getLandmark().toLowerCase().contains(s.toLowerCase())){
+                     filteredLandmarks.add(Landmark);   
+                    }
+                }
+                ArrayAdapter<String> LandmarkAdapter = new ArrayAdapter<String>(getApplicationContext(), resource: 0, filteredLandmarks);
+                ListView.setAdapter(LandmarkAdapter);
+
+                return false;
+            }
+        });
+        
+        private void filterList(String status){
+            SelectedFilter = status;
+            ArrayList<String> filteredLandmarks = new ArrayList<String>();
+            for(String landmark : filteredLandmarks){
+                if(landmark.getLandmark().toLowerCase().contains(status)){
+                    filteredLandmarks.add(Landmark);
+                }
+            }
+            ArrayAdapter<String> LandmarkAdapter = new ArrayAdapter<String>(getApplicationContext(), resource: 0, filteredLandmarks);
+            ListView.setAdapter(LandmarkAdapter);
+        }
+        }
+    }
+    
 }
