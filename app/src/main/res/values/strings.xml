@@ -528,4 +528,15 @@
     <string name="my_Location">myLocation</string>
     <string name="logoutbutton">LogoutButton</string>
     <string name="Logout_message">You have been logged out.</string>
+    <string name="preferred_landmark_type">Preferred Landmark Type</string>
+    <string name="meausrementsd">Meausrements</string>
+    <string name="save">Save</string>
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+    <string name="settings">Settings</string>
+    <string name="shopping">Shopping</string>
+    <string name="attractions_things_to_do"><![CDATA[Attractions & Things To Do]]></string>
+    <string name="restuarants">Restuarants</string>
+    <string name="events">Events</string>
+    <string name="sports_wellness_health_facility"><![CDATA[Sports, Wellness & Health Facility]]></string>
 </resources>
