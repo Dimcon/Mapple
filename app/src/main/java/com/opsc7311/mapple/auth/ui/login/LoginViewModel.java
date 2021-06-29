@@ -5,6 +5,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModel;
 
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.util.Patterns;
 import android.webkit.ValueCallback;
 
@@ -14,7 +16,7 @@ import com.opsc7311.mapple.auth.data.Result;
 import com.opsc7311.mapple.auth.data.model.LoggedInUser;
 import com.opsc7311.mapple.R;
 
-public class LoginViewModel extends ViewModel {
+public class LoginViewModel extends ViewModel implements Parcelable {
 
     private MutableLiveData<LoginFormState> loginFormState = new MutableLiveData<>();
     private MutableLiveData<LoginResult> loginResult = new MutableLiveData<>();
@@ -23,6 +25,21 @@ public class LoginViewModel extends ViewModel {
     LoginViewModel(LoginRepository loginRepository) {
         this.loginRepository = loginRepository;
     }
+
+    protected LoginViewModel(Parcel in) {
+    }
+
+    public static final Creator<LoginViewModel> CREATOR = new Creator<LoginViewModel>() {
+        @Override
+        public LoginViewModel createFromParcel(Parcel in) {
+            return new LoginViewModel(in);
+        }
+
+        @Override
+        public LoginViewModel[] newArray(int size) {
+            return new LoginViewModel[size];
+        }
+    };
 
     LiveData<LoginFormState> getLoginFormState() {
         return loginFormState;
@@ -94,5 +111,14 @@ public class LoginViewModel extends ViewModel {
     // A placeholder password validation check
     private boolean isPasswordValid(String password) {
         return password != null && password.trim().length() > 5;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
     }
 }

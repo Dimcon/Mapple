@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".main.NavigationActivity"></activity>
+
         <activity android:name=".auth.ui.login.RegisterActivity" />
         <activity
             android:name=".auth.ui.login.LoginActivity"
